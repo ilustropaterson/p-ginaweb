@@ -1,0 +1,2283 @@
+{
+  "sitio": {
+    "autor": "Fernando Paterson",
+    "marca": "Paterson",
+    "email": "ilustropaterson@gmail.com",
+    "dominio": "",
+    "idioma": "es",
+    "locale": "es_ES",
+    "theme_color": "#0B0B0C",
+    "titulo": "Fernando Paterson — Diseñador Gráfico &amp; Ilustrador | E-commerce, Amazon y Packaging",
+    "descripcion": "Diseñador gráfico e ilustrador digital especializado en e-commerce: listados de Amazon, contenido A+, packaging, infografía e ilustración para marcas que venden online. Disponible para proyectos.",
+    "og_titulo": "Fernando Paterson — Diseñador Gráfico &amp; Ilustrador",
+    "og_descripcion": "Diseño para e-commerce que convierte: Amazon, contenido A+, packaging e ilustración. Portfolio y contacto.",
+    "og_imagen": "injusa-cover",
+    "linkedin": {
+      "url": "https://www.linkedin.com/search/results/all/?keywords=Fernando%20Paterson%20Gonz%C3%A1lez",
+      "texto": "LinkedIn — Fernando Paterson González"
+    },
+    "base": "España — disponible en remoto",
+    "menu_label": "Fernando Paterson — Portfolio",
+    "menu_meta": "España · Remoto",
+    "pie_home": "Diseñador Gráfico &amp; Ilustrador — España",
+    "textos": {
+      "volver_arriba": "Volver arriba ↑",
+      "volver_inicio": "← Inicio",
+      "separador_servicios": " · ",
+      "alt_galeria": "{0} — proyecto {1}",
+      "titulo_caso": "{0} — Case Study | {1}"
+    },
+    "nav": [
+      {
+        "num": "01",
+        "texto": "Trabajo",
+        "ancla": "#trabajo"
+      },
+      {
+        "num": "02",
+        "texto": "Servicios",
+        "ancla": "#servicios"
+      },
+      {
+        "num": "03",
+        "texto": "Sobre mí",
+        "ancla": "#sobre-mi"
+      },
+      {
+        "num": "04",
+        "texto": "Contacto",
+        "ancla": "#contacto"
+      }
+    ]
+  },
+  "home": {
+    "hero": {
+      "label": "Diseñador Gráfico · Ilustrador Digital · Transmedia",
+      "estado": "Disponible para proyectos",
+      "titulo": [
+        "Fernando",
+        "Paterson"
+      ],
+      "rotador_prefijo": "Diseño para&nbsp;",
+      "rotador_palabras": [
+        "Amazon",
+        "E-commerce",
+        "Packaging",
+        "Tu marca"
+      ],
+      "claim": "Diseño <strong>listados, contenido A+, packaging e ilustración</strong> para marcas que venden online.\n        Si tu producto tiene que destacar en un mercado saturado, <strong>hablemos</strong>.",
+      "ctas": [
+        {
+          "texto": "Ver proyectos ↓",
+          "href": "#trabajo",
+          "clase": "solid",
+          "cursor": "Bajar"
+        },
+        {
+          "texto": "Trabajemos juntos",
+          "href": "#contacto",
+          "clase": "",
+          "cursor": ""
+        }
+      ]
+    },
+    "marquee": [
+      "Listados Amazon",
+      "Contenido A+",
+      "Packaging",
+      "Infografía",
+      "Ilustración",
+      "Tiendas de marca",
+      "Etiquetas",
+      "Renders"
+    ],
+    "destacados": {
+      "titulo": [
+        "Proyectos",
+        "destacados"
+      ],
+      "label": "(2024 — 2026)"
+    },
+    "archivo": {
+      "titulo": [
+        "Clientes"
+      ],
+      "label": "Las marcas para las que diseño",
+      "filtros": [
+        {
+          "id": "todos",
+          "texto": "Todos"
+        },
+        {
+          "id": "amazon",
+          "texto": "Amazon &amp; E-commerce"
+        },
+        {
+          "id": "aplus",
+          "texto": "Contenido A+ &amp; Infografía"
+        },
+        {
+          "id": "packaging",
+          "texto": "Packaging &amp; Print"
+        }
+      ]
+    },
+    "servicios": {
+      "titulo": [
+        "Qué puedo hacer",
+        "por tu marca"
+      ],
+      "label": "Servicios",
+      "lista": [
+        {
+          "clave": "amazon",
+          "titulo": "Listados &amp; Contenido A+ para Amazon",
+          "texto": "La imagen principal decide el clic; la galería y el A+ deciden la compra. Diseño listados completos pensados para convertir: jerarquía clara, beneficios visibles y coherencia de marca en cada píxel. He diseñado listados para más de 15 marcas en Amazon España y Europa, con adaptación a 5 idiomas.",
+          "items": [
+            "Imagen principal",
+            "Infografías de producto",
+            "Contenido A+ / A+ Premium",
+            "Tiendas de marca",
+            "Banners y campañas",
+            "Adaptación ES · EN · DE · FR · IT"
+          ]
+        },
+        {
+          "clave": "ecommerce",
+          "titulo": "E-commerce &amp; Shopify",
+          "texto": "Imágenes de producto, banners y assets gráficos para tiendas online. Retoque, fotomontaje y composición para que el catálogo entero se vea profesional y consistente, de la home a la ficha de producto.",
+          "items": [
+            "Imágenes de producto",
+            "Banners promocionales",
+            "Retoque &amp; fotomontaje",
+            "Assets para web"
+          ]
+        },
+        {
+          "clave": "packaging",
+          "titulo": "Packaging &amp; Print",
+          "texto": "Del lineal físico a la caja que llega a casa: etiquetas, packaging y piezas impresas con artes finales listos para imprenta. También piezas postventa —cartas de agradecimiento, folletos— que convierten una compra en un cliente que repite.",
+          "items": [
+            "Etiquetas de producto",
+            "Packaging",
+            "Cartas &amp; folletos postventa",
+            "Artes finales"
+          ]
+        },
+        {
+          "clave": "ilustracion",
+          "titulo": "Ilustración Digital",
+          "texto": "Ilustración comercial y editorial con intención: piezas que dan personalidad a un listado, una infografía o una marca cuando la fotografía no llega.",
+          "items": [
+            "Ilustración editorial &amp; comercial",
+            "Personajes",
+            "Iconografía",
+            "Recursos gráficos para web"
+          ]
+        },
+        {
+          "clave": "branding",
+          "titulo": "Branding &amp; Identidad",
+          "texto": "Logotipos e identidad visual aplicada a producto y e-commerce: marcas pensadas desde el primer día para funcionar en un listado, una etiqueta y una tienda online.",
+          "items": [
+            "Logotipos",
+            "Identidad visual",
+            "Aplicación a producto"
+          ]
+        }
+      ]
+    },
+    "proceso": [
+      {
+        "titulo": "Brief",
+        "texto": "Hablamos de tu producto, tus objetivos y tus plazos. Sin formularios eternos."
+      },
+      {
+        "titulo": "Propuesta",
+        "texto": "Presupuesto y calendario claros antes de empezar. Sin sorpresas."
+      },
+      {
+        "titulo": "Diseño",
+        "texto": "Primeras propuestas trabajadas sobre tu producto real, no sobre plantillas."
+      },
+      {
+        "titulo": "Revisiones",
+        "texto": "Afinamos juntos los detalles hasta que la pieza funcione."
+      },
+      {
+        "titulo": "Entrega",
+        "texto": "Archivos finales listos para publicar o imprimir, organizados y en todos los formatos."
+      }
+    ],
+    "sobre_mi": {
+      "titulo": [
+        "Sobre mí"
+      ],
+      "label": "Fernando Paterson",
+      "foto": "about-foto",
+      "foto_alt": "Fernando Paterson frente al puente de Manhattan, Nueva York",
+      "foto_pie": "Nueva York, 2025",
+      "claim": "Diseño para que los productos <em>se entiendan, gusten y se vendan.</em>",
+      "parrafos": [
+        "Soy diseñador gráfico e ilustrador digital, formado en <strong>Diseño y Gestión de Proyectos Transmedia</strong> en CSEU La Salle (Madrid). Desde 2024 diseño a diario para marcas de e-commerce: primero con <strong>Valbaby</strong> y, desde 2025, también con los estudios <strong>Growth Sprint</strong> y <strong>Navium &amp; Co</strong>, firmando trabajo para INJUSA, Puremind, Gubosa, Valentia Medical o Saludbox, entre otros.",
+        "Mi criterio es simple: cada pieza tiene que <strong>verse bien y vender mejor</strong>. Vengo del diseño transmedia, así que pienso cada proyecto como una historia que se cuenta igual de bien en un listado de Amazon, una etiqueta o una tienda online."
+      ],
+      "columnas": [
+        {
+          "titulo": "Experiencia",
+          "filas": [
+            [
+              "Navium &amp; Co — Diseñador e-commerce",
+              "2026 — Act."
+            ],
+            [
+              "Growth Sprint — Diseñador e-commerce",
+              "2025 — Act."
+            ],
+            [
+              "Valbaby — Diseñador e-commerce",
+              "2024 — Act."
+            ]
+          ]
+        },
+        {
+          "titulo": "Herramientas",
+          "filas": [
+            [
+              "Adobe Photoshop",
+              ""
+            ],
+            [
+              "Adobe Illustrator",
+              ""
+            ],
+            [
+              "Adobe InDesign",
+              ""
+            ],
+            [
+              "Clip Studio Paint",
+              ""
+            ]
+          ]
+        },
+        {
+          "titulo": "Formación",
+          "filas": [
+            [
+              "Diseño y Gestión de Proyectos Transmedia — CSEU La Salle",
+              "2020 — 2024"
+            ],
+            [
+              "Curso intensivo de Diseño Gráfico",
+              "2024"
+            ]
+          ]
+        },
+        {
+          "titulo": "Idiomas",
+          "filas": [
+            [
+              "Español",
+              "Nativo"
+            ],
+            [
+              "Inglés",
+              "B2"
+            ],
+            [
+              "Piezas adaptadas a",
+              "ES·EN·DE·FR·IT"
+            ]
+          ]
+        }
+      ],
+      "stats": [
+        {
+          "valor": 10,
+          "sufijo": "+",
+          "label": "Marcas diseñadas"
+        },
+        {
+          "valor": 2,
+          "sufijo": "",
+          "label": "Años de experiencia"
+        },
+        {
+          "valor": 5,
+          "sufijo": "",
+          "label": "Idiomas de adaptación"
+        }
+      ]
+    },
+    "clientes": {
+      "label": "Marcas que ya confían en mi trabajo",
+      "fila_1": [
+        "Injusa",
+        "Puremind",
+        "Valbaby",
+        "Gubosa",
+        "Rupeca",
+        "Mommy Confort",
+        "ZenDreams",
+        "mibebéstore"
+      ],
+      "fila_2": [
+        "Valentia Medical",
+        "Auvra",
+        "Tottal",
+        "Ambiti",
+        "Saludbox",
+        "Mooiza",
+        "Ubaby",
+        "Neobit"
+      ]
+    },
+    "contacto": {
+      "label": "¿Tu producto necesita destacar?",
+      "titulo": [
+        {
+          "texto": "Trabajemos"
+        },
+        {
+          "texto": "juntos.",
+          "clase": "out"
+        }
+      ],
+      "cursor": "Escribir",
+      "abierto_a": "Marcas · Agencias · E-commerce",
+      "formulario": {
+        "label": "O escríbeme desde aquí",
+        "asunto": "Nuevo mensaje desde el portfolio",
+        "nombre": "Nombre",
+        "nombre_pista": "Cómo te llamas",
+        "email": "Correo",
+        "email_pista": "Para poder responderte",
+        "mensaje": "Qué necesitas",
+        "mensaje_pista": "Cuéntame el proyecto: producto, plazos, lo que tengas en mente.",
+        "nombre_error": "Dime tu nombre.",
+        "email_error": "Ese correo no parece válido.",
+        "mensaje_error": "Cuéntame algo, aunque sea en dos líneas.",
+        "enviar": "Enviar mensaje",
+        "enviando": "Enviando…",
+        "exito": "Mensaje enviado. Te respondo en menos de 24 h.",
+        "error": "No ha salido el envío. Prueba otra vez o escríbeme directamente al correo de arriba."
+      }
+    }
+  },
+  "proyectos": [
+    {
+      "slug": "injusa",
+      "nombre": "Injusa",
+      "logo": "marcas/injusa",
+      "logo_alt": "Logo de INJUSA",
+      "cliente": "INJUSA",
+      "anio": "2025 — 2026",
+      "sector": "Juguetes y vehículos infantiles",
+      "servicios": [
+        "Listados Amazon",
+        "Contenido A+",
+        "Tienda de marca",
+        "Infografía",
+        "Multiidioma"
+      ],
+      "descripcion_seo": "Case study: diseño de listados, contenido A+ y tienda de Amazon para INJUSA, marca española de juguetes con 75 años de historia.",
+      "contexto": "INJUSA es una marca española de vehículos infantiles con 75 años de historia. A través del estudio Growth Sprint me encargué del contenido visual de su catálogo en Amazon: un producto pensado para niños, pero comprado por padres que necesitan confiar en lo que ven.",
+      "trabajo": "Diseñé imágenes principales, infografías y contenido A+ para varios productos de la marca, además de piezas para su tienda de Amazon. El reto: comunicar <strong>diversión, seguridad y dinamismo</strong> a la vez, adaptando cada pieza a un público familiar y a varios mercados europeos con sus idiomas.",
+      "resultado": "Un catálogo entero hablando el mismo idioma visual: <em>diversión para ellos, confianza para sus padres.</em>",
+      "cover": {
+        "img": "injusa-cover",
+        "alt": "Niño montado en una moto eléctrica Repsol de INJUSA en un parque"
+      },
+      "galeria": [
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "injusa-minnie",
+              "Correpasillos Minnie Mouse — imagen principal"
+            ],
+            [
+              "Listados/Edad-100",
+              "Infografía técnica — vehículo 12V"
+            ]
+          ]
+        },
+        {
+          "tipo": "full",
+          "items": [
+            [
+              "Listados/injusa-a1",
+              "Contenido A+ — banner principal"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "Listados/injusa-a2",
+              "Contenido A+ — módulo de beneficios"
+            ],
+            [
+              "Listados/injusa-a4",
+              "Contenido A+ — módulo técnico"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "injusa-aire",
+              "Tienda de Amazon — categoría aire libre"
+            ],
+            [
+              "injusa-caseta",
+              "Tienda de Amazon — casetas"
+            ]
+          ]
+        },
+        {
+          "tipo": "full",
+          "items": [
+            [
+              "injusa-75",
+              "Banner conmemorativo — 75 aniversario"
+            ]
+          ]
+        },
+        {
+          "tipo": "full",
+          "items": [
+            [
+              "injusa-24v",
+              "Tienda de Amazon — vehículos 24V"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/injusa/1",
+              "Decoración IML — adhesión segura"
+            ],
+            [
+              "clientes/injusa/1-1",
+              "Diseñada para fomentar el juego activo"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-3",
+          "items": [
+            [
+              "clientes/injusa/2",
+              "Calidad, seguridad e innovación"
+            ],
+            [
+              "clientes/injusa/3",
+              "Dimensiones y edad recomendada"
+            ],
+            [
+              "clientes/injusa/4",
+              "Apta desde los 3 años"
+            ]
+          ]
+        }
+      ],
+      "home": {
+        "destacado": true,
+        "cover": "Nuevos Logos/Injusa",
+        "alt": "Niño montado en una moto eléctrica Repsol de INJUSA, imagen de tienda de Amazon",
+        "carga": "eager",
+        "anio": "2025 — 2026",
+        "tags": [
+          "Listados Amazon",
+          "Contenido A+",
+          "Tienda de marca"
+        ],
+        "cliente": "Juguetes y vehículos infantiles — Amazon EU"
+      },
+      "archivo": {
+        "cats": [
+          "amazon",
+          "aplus"
+        ],
+        "meta": "Amazon · A+"
+      }
+    },
+    {
+      "slug": "auvra",
+      "nombre": "Auvra",
+      "logo": "marcas/auvra",
+      "logo_alt": "Logo de Auvra",
+      "cliente": "Auvra",
+      "anio": "2026",
+      "sector": "Tecnología — accesorios de automóvil",
+      "servicios": [
+        "Dirección visual",
+        "Imágenes de producto",
+        "Contenido A+",
+        "Renders"
+      ],
+      "descripcion_seo": "Case study: dirección visual, imágenes de producto y contenido A+ para la gama de adaptadores CarPlay inalámbricos de Auvra.",
+      "contexto": "Auvra lanza una gama de adaptadores de CarPlay inalámbrico (SE Air, SE Max, Swiftlink) en un mercado saturado de productos idénticos. El briefing pedía una estética premium y consistente que diferenciara la gama a primera vista.",
+      "trabajo": "Definí el estilo visual de los listados y diseñé las imágenes principales, composiciones de producto y contenido A+ de la gama completa. Fondos oscuros, luz controlada y detalle de materiales para que un accesorio de 30 € se perciba como un producto de 100 €.",
+      "resultado": "Una gama entera reconocible de un vistazo: <em>misma luz, misma familia, misma marca.</em>",
+      "cover": {
+        "img": "auvra-cover",
+        "alt": "Adaptador CarPlay de Auvra funcionando en el salpicadero de un coche"
+      },
+      "galeria": [
+        {
+          "tipo": "g-3",
+          "items": [
+            [
+              "auvra-seair",
+              "SE Air — imagen principal"
+            ],
+            [
+              "auvra-semax",
+              "SE Max — imagen principal"
+            ],
+            [
+              "auvra-swift",
+              "Swiftlink — imagen principal"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "auvra-princ",
+              "Composición de producto"
+            ],
+            [
+              "Listados/auvra-v2-princ",
+              "CarPlay A — imagen principal"
+            ]
+          ]
+        },
+        {
+          "tipo": "full",
+          "items": [
+            [
+              "Listados/A+ 4-100",
+              "Contenido A+ — detalle de producto"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/auvra/imagen-1",
+              "Listado — compatibilidad del vehículo"
+            ],
+            [
+              "clientes/auvra/imagen-2",
+              "Listado — conduce sin cables"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-3",
+          "items": [
+            [
+              "clientes/auvra/imagen-3",
+              "Listado — instalación rápida"
+            ],
+            [
+              "clientes/auvra/imagen-4",
+              "Listado — conexión estable"
+            ],
+            [
+              "clientes/auvra/imagen-5",
+              "Listado — diseño compacto"
+            ]
+          ]
+        },
+        {
+          "tipo": "full",
+          "items": [
+            [
+              "clientes/auvra/a-plus-1",
+              "A+ — SwiftLink Lite 2026"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/auvra/a-plus-2",
+              "A+ — adiós al cable de cada día"
+            ],
+            [
+              "clientes/auvra/a-plus-3",
+              "A+ — para tu ritmo de cada día"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/auvra/a-plus-4",
+              "A+ — simple por fuera, inteligente por dentro"
+            ],
+            [
+              "clientes/auvra/a-plus-5",
+              "A+ — unboxing limpio y cuidado"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/auvra/a-plus-6",
+              "A+ — comparativa frente a otras marcas"
+            ],
+            [
+              "clientes/auvra/a-plus-7",
+              "A+ — sencillo de usar"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/auvra/a-plus-8",
+              "A+ — mapas, música y llamadas"
+            ],
+            [
+              "clientes/auvra/a-plus-9",
+              "A+ — gran compatibilidad"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/auvra/a-plus-10",
+              "A+ — cómo actualizar el dispositivo"
+            ],
+            [
+              "clientes/auvra/a-plus-11",
+              "A+ — límites con apps de vídeo"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/auvra/a-plus-12",
+              "A+ — siempre listo al arrancar"
+            ],
+            [
+              "clientes/auvra/a-plus-13",
+              "A+ — guía de uso en cuatro pasos"
+            ]
+          ]
+        },
+        {
+          "tipo": "full",
+          "items": [
+            [
+              "clientes/auvra/a-plus-14",
+              "A+ — comprobador de compatibilidad"
+            ]
+          ]
+        }
+      ],
+      "home": {
+        "destacado": true,
+        "cover": "Nuevos Logos/Auvra",
+        "alt": "Adaptador CarPlay inalámbrico de Auvra instalado en el salpicadero de un coche",
+        "carga": "eager",
+        "anio": "2026",
+        "tags": [
+          "Imágenes de producto",
+          "Contenido A+",
+          "Dirección visual"
+        ],
+        "cliente": "Tecnología para el coche — CarPlay inalámbrico"
+      },
+      "archivo": {
+        "cats": [
+          "amazon",
+          "aplus"
+        ],
+        "meta": "Producto · A+"
+      }
+    },
+    {
+      "slug": "puremind",
+      "nombre": "Puremind",
+      "logo": "marcas/puremind",
+      "logo_alt": "Logo de Puremind",
+      "cliente": "Puremind",
+      "anio": "2025",
+      "sector": "Bienestar y salud visual",
+      "servicios": [
+        "Listados Amazon",
+        "Infografía",
+        "Imagen principal",
+        "Optimización a conversión"
+      ],
+      "descripcion_seo": "Case study: listados de Amazon España para Puremind — gafas bloqueadoras de luz azul, filtros clip-on y productos de bienestar.",
+      "contexto": "Puremind vende productos de bienestar y salud visual en Amazon España: gafas bloqueadoras de luz azul, filtros clip-on y su gorro de alivio para migrañas. Productos con beneficios reales pero difíciles de explicar en una miniatura.",
+      "trabajo": "Diseñé los listados completos: imágenes principales e infografías que traducen tecnología (lentes multicapa, bloqueo de luz azul, frío/calor) en beneficios que se entienden en tres segundos. Un sistema visual coherente para toda la marca, optimizado para conversión.",
+      "resultado": "Beneficios complejos contados en una imagen: <em>así se decide una compra.</em>",
+      "cover": {
+        "img": "Listados/puremind-1",
+        "alt": "Infografía de gafas clip-on bloqueadoras de luz azul de Puremind"
+      },
+      "galeria": [
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "Listados/puremind-2",
+              "Infografía — tecnología multicapa"
+            ],
+            [
+              "Listados/puremind-5",
+              "Infografía — contenido del pedido"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "Listados/puremind-3",
+              "Gorro para migrañas — frío o calor"
+            ],
+            [
+              "Listados/puremind-4",
+              "Gorro para migrañas — beneficios"
+            ]
+          ]
+        },
+        {
+          "tipo": "full",
+          "items": [
+            [
+              "Listados/puremind-6",
+              "Infografía — bienestar digital a diario"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "Listados/puremind-7",
+              "Infografía — rendimiento y fatiga visual"
+            ],
+            [
+              "Listados/puremind-8",
+              "Infografía — descanso nocturno"
+            ]
+          ]
+        }
+      ],
+      "home": {
+        "destacado": true,
+        "cover": "Nuevos Logos/Puremind",
+        "alt": "Infografía de gafas clip-on bloqueadoras de luz azul de Puremind",
+        "carga": "eager",
+        "anio": "2025",
+        "tags": [
+          "Listados Amazon",
+          "Infografía",
+          "Optimización a conversión"
+        ],
+        "cliente": "Bienestar y salud visual — Amazon España"
+      },
+      "archivo": {
+        "cats": [
+          "amazon",
+          "aplus"
+        ],
+        "meta": "Amazon · A+"
+      }
+    },
+    {
+      "slug": "tottal",
+      "nombre": "Tottal",
+      "logo": "marcas/tottal",
+      "logo_alt": "Logo de Tottal",
+      "cliente": "Tottal",
+      "anio": "2026",
+      "sector": "Óptica — observación solar",
+      "servicios": [
+        "Logo",
+        "Render 3D",
+        "Listado Amazon",
+        "Contenido A+",
+        "Packaging"
+      ],
+      "descripcion_seo": "Case study: logo, renders 3D y listado completo de Amazon para Tottal, gafas de cartón certificado FSC para la observación segura de eclipses.",
+      "contexto": "Tottal lanza unas gafas de observación solar de montura de cartón certificado FSC, pensadas para disfrutar de un eclipse sin riesgos. Un producto de temporada que necesitaba nacer con marca propia y un listado impecable desde el día uno.",
+      "trabajo": "Proyecto integral: diseñé el logotipo de la marca, modelé los renders 3D del producto, y construí el listado completo con imágenes principales, infografías y contenido A+ en varios idiomas. El discurso visual gira en torno a la seguridad certificada (normativa ISO) y la emoción de mirar un eclipse de frente.",
+      "resultado": "Una marca creada de cero para un momento que dura minutos: <em>y un producto listo para aprovecharlo.</em>",
+      "cover": {
+        "img": "Listados/lion-cover",
+        "alt": "Infografía nocturna de las gafas de eclipse Tottal explicando su protección UV"
+      },
+      "galeria": [
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "lion-render",
+              "Render 3D del producto"
+            ],
+            [
+              "Logos/lion-logo",
+              "Logotipo Tottal"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "Listados/lion-1",
+              "Listado — resumen del producto"
+            ],
+            [
+              "Listados/lion-2",
+              "Listado — características"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "Listados/lion-3",
+              "Listado — calidad y normativa"
+            ],
+            [
+              "Listados/lion-4",
+              "Listado — momento de uso"
+            ]
+          ]
+        },
+        {
+          "tipo": "full",
+          "items": [
+            [
+              "Listados/lion-a1",
+              "Contenido A+ — módulo principal"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "Listados/lion-a2",
+              "Contenido A+ — módulo de beneficios"
+            ],
+            [
+              "Listados/lion-pack4",
+              "Pack de 4 unidades"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-3",
+          "items": [
+            [
+              "clientes/tottal/1",
+              "Listado — disfruta de manera segura"
+            ],
+            [
+              "clientes/tottal/2",
+              "Listado — diseñadas para vivir el eclipse"
+            ],
+            [
+              "clientes/tottal/3",
+              "Listado — protección certificada y homologada"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/tottal/4",
+              "Listado — método de uso"
+            ],
+            [
+              "clientes/tottal/5",
+              "Listado — de qué te protegen"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/tottal/6-paquete-2",
+              "Variante de pack — 2 gafas"
+            ],
+            [
+              "clientes/tottal/6-paquete-4",
+              "Variante de pack — 4 gafas"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/tottal/a-plus-1",
+              "A+ — un momento para compartir"
+            ],
+            [
+              "clientes/tottal/a-plus-2",
+              "A+ — qué ocurre durante un eclipse"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/tottal/a-plus-3",
+              "A+ — no todo sirve para mirar al Sol"
+            ],
+            [
+              "clientes/tottal/a-plus-4",
+              "A+ — disfrutar en grupo"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/tottal/a-plus-5",
+              "A+ — prepárate para el gran momento"
+            ],
+            [
+              "clientes/tottal/a-plus-6",
+              "A+ — revísalas antes de cada uso"
+            ]
+          ]
+        },
+        {
+          "tipo": "full",
+          "items": [
+            [
+              "clientes/tottal/imagen-7",
+              "Material de origen forestal certificado"
+            ]
+          ]
+        }
+      ],
+      "home": {
+        "destacado": true,
+        "cover": "Nuevos Logos/Tottal",
+        "alt": "Infografía nocturna de gafas para ver eclipses de la marca Tottal",
+        "carga": "eager",
+        "anio": "2026",
+        "tags": [
+          "Logo",
+          "Listado Amazon",
+          "Render 3D"
+        ],
+        "cliente": "Gafas para observación de eclipses",
+        "aria": "Ver proyecto Tottal, gafas de eclipse"
+      },
+      "archivo": {
+        "cats": [
+          "amazon",
+          "packaging"
+        ],
+        "meta": "Logo · Amazon"
+      }
+    },
+    {
+      "slug": "gubosa",
+      "nombre": "Gubosa",
+      "logo": "marcas/gubosa",
+      "logo_alt": "Logo de Gubosa",
+      "cliente": "Gubosa Detailing",
+      "anio": "2026",
+      "sector": "Detailing y cuidado del automóvil",
+      "servicios": [
+        "Etiquetas",
+        "Packaging",
+        "Listados Amazon",
+        "Contenido A+"
+      ],
+      "descripcion_seo": "Case study: sistema de etiquetas y listados de Amazon para Gubosa, marca española de pulimentos y detailing profesional.",
+      "contexto": "Gubosa fabrica en España pulimentos y productos de detailing de laboratorio propio. Necesitaba que su gama —High Cut, Alto Brillo, Metal Polish, Rust Cleaner y más— se viera tan profesional en el bote como lo es su fórmula.",
+      "trabajo": "Diseñé el sistema de etiquetas de la gama, con un código de color por producto sobre base negra, y el contenido visual de sus listados en Amazon: infografías de aplicación paso a paso, comparativas y contenido centrado en la eficacia y el acabado profesional.",
+      "resultado": "Una gama que se reconoce en la estantería y se explica sola en Amazon: <em>del laboratorio al lineal sin perder seriedad.</em>",
+      "cover": {
+        "img": "gubosa-cover",
+        "alt": "Etiqueta del pulimento High Cut GB-200 de Gubosa Detailing"
+      },
+      "galeria": [
+        {
+          "tipo": "full",
+          "items": [
+            [
+              "gubosa-general",
+              "Gama completa de productos Gubosa"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "gubosa-etiqueta",
+              "Etiqueta — High Cut"
+            ],
+            [
+              "Listados/gubosa-principal",
+              "Kit profesional de corrección y brillo"
+            ]
+          ]
+        },
+        {
+          "tipo": "full",
+          "items": [
+            [
+              "Listados/gubosa-a6am",
+              "Contenido A+ — soluciones profesionales para cada etapa"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "Listados/gubosa-2",
+              "Infografía — qué son los micro-abrasivos"
+            ],
+            [
+              "Listados/gubosa-3",
+              "Infografía — aplicación paso a paso"
+            ]
+          ]
+        },
+        {
+          "tipo": "full",
+          "items": [
+            [
+              "Listados/gubosa-a6",
+              "Contenido A+ — módulo de gama"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/gubosa/principal",
+              "Imagen principal — Alto Brillo High Gloss"
+            ],
+            [
+              "clientes/gubosa/1",
+              "Listado — un acabado profundo y controlado"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-3",
+          "items": [
+            [
+              "clientes/gubosa/2",
+              "Listado — recupera el nivel del acabado final"
+            ],
+            [
+              "clientes/gubosa/3",
+              "Listado — un producto, múltiples aplicaciones"
+            ],
+            [
+              "clientes/gubosa/4",
+              "Listado — cómo usarlo paso a paso"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/gubosa/5",
+              "Listado — qué son los micro-abrasivos"
+            ],
+            [
+              "clientes/gubosa/6",
+              "Listado — soluciones para cada etapa"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/gubosa/a-1",
+              "A+ — respeto por la superficie"
+            ],
+            [
+              "clientes/gubosa/a-2",
+              "A+ — problemas habituales antes del paso final"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/gubosa/a-3",
+              "A+ — resultados consistentes pasada tras pasada"
+            ],
+            [
+              "clientes/gubosa/a-5",
+              "A+ — un resultado brillante"
+            ]
+          ]
+        },
+        {
+          "tipo": "full",
+          "items": [
+            [
+              "clientes/gubosa/a-6",
+              "A+ — pensado para trabajar cómodo"
+            ]
+          ]
+        }
+      ],
+      "home": {
+        "destacado": true,
+        "cover": "Nuevos Logos/Gubosa",
+        "alt": "Etiqueta del pulimento High Cut de Gubosa Detailing",
+        "carga": "eager",
+        "anio": "2026",
+        "tags": [
+          "Etiquetas",
+          "Listados Amazon",
+          "Infografía"
+        ],
+        "cliente": "Detailing y cuidado del automóvil"
+      },
+      "archivo": {
+        "cats": [
+          "amazon",
+          "aplus",
+          "packaging"
+        ],
+        "meta": "Etiquetas · Amazon"
+      }
+    },
+    {
+      "slug": "mommy-confort",
+      "nombre": "Mommy Confort",
+      "logo": "marcas/mommy",
+      "logo_alt": "Logo de Mommy Confort",
+      "cliente": "Mommy Confort / Valentia Medical",
+      "anio": "2025",
+      "sector": "Descanso y cuidado de la salud",
+      "servicios": [
+        "Listados Amazon",
+        "Infografía",
+        "Contenido A+",
+        "Multiidioma"
+      ],
+      "descripcion_seo": "Case study: imágenes e infografías de Amazon para Mommy Confort y Valentia Medical — almohadas viscoelásticas y cojines ergonómicos.",
+      "contexto": "Mommy Confort y Valentia Medical venden almohadas viscoelásticas y cojines ergonómicos: productos de salud y descanso donde la confianza lo es todo y las diferencias no se ven a simple vista.",
+      "trabajo": "Desarrollé el material visual de sus listados: imágenes principales, infografías de ergonomía y postura, y módulos que comunican certificaciones, materiales y fabricación española. Piezas adaptadas a varios idiomas, incluido el mercado alemán.",
+      "resultado": "Ergonomía y confianza explicadas con claridad: <em>lo que no se puede tocar, se tiene que entender.</em>",
+      "cover": {
+        "img": "mommy-cover",
+        "alt": "Almohada viscoelástica de Mommy Confort, imagen principal del listado"
+      },
+      "galeria": [
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "Listados/mommy-1",
+              "Almohada infantil — beneficios"
+            ],
+            [
+              "mommy-2",
+              "Almohada infantil — materiales"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "Listados/mommy-3",
+              "Infografía — tejido y lavado"
+            ],
+            [
+              "Listados/mommy-5",
+              "Infografía — transpirabilidad"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/mommy/imagen-1-esp",
+              "Listado — medidas y propiedades de la almohada"
+            ],
+            [
+              "clientes/mommy/imagen-3-esp",
+              "Listado — tejido exterior, interior y lavado a 40°"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/mommy/imagen-2",
+              "Listado — la almohada infantil en uso"
+            ],
+            [
+              "clientes/mommy/imagen-6",
+              "Listado — respaldo profesional y fabricación española"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "mommy-coxis-p",
+              "Cojín coxis — imagen principal"
+            ],
+            [
+              "Listados/mommy-coxis-1",
+              "Cojín coxis — alivia dolores"
+            ]
+          ]
+        },
+        {
+          "tipo": "full",
+          "items": [
+            [
+              "Listados/mommy-coxis-2",
+              "Cojín coxis — infografía de postura"
+            ]
+          ]
+        }
+      ],
+      "home": {
+        "destacado": true,
+        "cover": "Nuevos Logos/Mommy",
+        "alt": "Imagen principal de almohada viscoelástica de Mommy Confort",
+        "carga": "eager",
+        "anio": "2025",
+        "tags": [
+          "Listados Amazon",
+          "Infografía",
+          "Multiidioma"
+        ],
+        "cliente": "Descanso y salud — con Valentia Medical",
+        "aria": "Ver proyecto Mommy Confort y Valentia Medical"
+      },
+      "archivo": {
+        "cats": [
+          "amazon",
+          "aplus"
+        ],
+        "meta": "Amazon · A+"
+      }
+    },
+    {
+      "slug": "rupeca",
+      "nombre": "Rupeca",
+      "logo": "marcas/rupeca",
+      "logo_alt": "Logo de Rupeca",
+      "cliente": "Rupeca",
+      "anio": "2026",
+      "sector": "Hogar y jardín",
+      "servicios": [
+        "Packaging",
+        "Listados Amazon",
+        "Infografía",
+        "Multiidioma"
+      ],
+      "descripcion_seo": "Case study: packaging y listados de Amazon para Rupeca — trampas para cucarachas y cinta espantapájaros, adaptados a 4 idiomas.",
+      "contexto": "Rupeca, marca española de productos para el hogar, necesitaba lanzar su trampa inteligente para cucarachas y su cinta reflectante espantapájaros: categorías donde casi todo el catálogo de la competencia se ve igual… y poco cuidado.",
+      "trabajo": "Diseñé el packaging físico de la trampa y los listados completos de ambos productos: imágenes principales, infografías de uso paso a paso y comparativas frente a otras marcas. Todo adaptado a español, alemán, francés e italiano.",
+      "resultado": "Productos cotidianos con un estándar visual poco habitual en su categoría: <em>eso también es diferenciarse.</em>",
+      "cover": {
+        "img": "Listados/rupeca-cover",
+        "alt": "Packaging de la trampa inteligente para cucarachas de Rupeca"
+      },
+      "galeria": [
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "Listados/rupeca-1",
+              "Listado — protege tu hogar"
+            ],
+            [
+              "Listados/rupeca-2",
+              "Listado — protección prolongada"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "Listados/rupeca-3",
+              "Comparativa — mayor calidad"
+            ],
+            [
+              "Listados/rupeca-4",
+              "Infografía — montura sencilla"
+            ]
+          ]
+        },
+        {
+          "tipo": "full",
+          "items": [
+            [
+              "Listados/rupeca-aves-1",
+              "Cinta espantapájaros — imagen de listado"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "Listados/rupeca-aves-2",
+              "Cinta espantapájaros — inofensiva para animales"
+            ],
+            [
+              "Listados/rupeca-6",
+              "Trampa — módulo de uso"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/rupeca/1-esp",
+              "Listado ES — protege tu hogar, protege tu familia"
+            ],
+            [
+              "clientes/rupeca/2-esp",
+              "Listado ES — montura práctica y sencilla"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-3",
+          "items": [
+            [
+              "clientes/rupeca/4-esp",
+              "Listado ES — mayor calidad, mayor protección"
+            ],
+            [
+              "clientes/rupeca/5-esp",
+              "Listado ES — protección prolongada"
+            ],
+            [
+              "clientes/rupeca/6-esp",
+              "Listado ES — un hogar libre de plagas"
+            ]
+          ]
+        }
+      ],
+      "home": {
+        "destacado": true,
+        "cover": "Nuevos Logos/Rupeca",
+        "alt": "Packaging de la trampa inteligente para cucarachas de Rupeca",
+        "carga": "eager",
+        "anio": "2026",
+        "tags": [
+          "Packaging",
+          "Listados Amazon",
+          "Multiidioma"
+        ],
+        "cliente": "Hogar y jardín — control de plagas"
+      },
+      "archivo": {
+        "cats": [
+          "amazon",
+          "aplus",
+          "packaging"
+        ],
+        "meta": "Packaging · Amazon"
+      }
+    },
+    {
+      "slug": "valbaby",
+      "nombre": "Valbaby",
+      "logo": "marcas/valbaby",
+      "logo_alt": "Logo de Valbaby Care",
+      "cliente": "Valbaby",
+      "anio": "2024 — Actualidad",
+      "sector": "Puericultura",
+      "servicios": [
+        "Shopify",
+        "Tienda de Amazon",
+        "Listados",
+        "Cartas postventa",
+        "Multiidioma"
+      ],
+      "descripcion_seo": "Case study: diseño e-commerce integral para Valbaby — Shopify, tienda de Amazon, listados y cartas de agradecimiento en 5 idiomas.",
+      "contexto": "Valbaby es una marca de puericultura para la que trabajo como diseñador e-commerce desde 2024. Un catálogo que crece cada temporada —alfombras de juego, bañeras plegables, textil— y que necesita coherencia visual en cada canal donde vende.",
+      "trabajo": "Diseño integral y continuo: imágenes y banners para su tienda Shopify, tienda de Amazon multiidioma, listados de producto y las cartas de agradecimiento postventa, de las que me encargué del diseño, la redacción y la traducción a 5 idiomas (ES, EN, DE, FR, IT) para reforzar el vínculo con cada cliente tras la compra.",
+      "resultado": "Una marca que se ve igual de cuidada en su web, en Amazon <em>y en la caja que llega a casa.</em>",
+      "cover": {
+        "img": "valbaby-cover",
+        "alt": "Padre jugando con su bebé sobre una alfombra Valbaby, fotografía de e-commerce"
+      },
+      "galeria": [
+        {
+          "tipo": "g-3",
+          "items": [
+            [
+              "valbaby-arco",
+              "Alfombra arcoíris — vista de producto"
+            ],
+            [
+              "valbaby-ciudad",
+              "Alfombra ciudad — vista de producto"
+            ],
+            [
+              "Listados/valbaby-im1",
+              "Alfombra — imagen vertical de listado"
+            ]
+          ]
+        },
+        {
+          "tipo": "full",
+          "items": [
+            [
+              "valbaby-banner",
+              "Banner de la tienda — Valbaby Care"
+            ]
+          ]
+        },
+        {
+          "tipo": "full",
+          "items": [
+            [
+              "valbaby-banera",
+              "Bañera plegable — imagen lifestyle"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "valbaby-carta",
+              "Carta de agradecimiento — diseño y redacción en 5 idiomas"
+            ],
+            [
+              "Listados/valbaby-im2",
+              "Alfombra — imagen de listado"
+            ]
+          ]
+        },
+        {
+          "tipo": "full",
+          "items": [
+            [
+              "clientes/valbaby/tienda-de-amazon-imagen-1",
+              "Tienda de Amazon — momentos para crecer y conectar"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-3",
+          "items": [
+            [
+              "clientes/valbaby/tienda-de-amazon-alfombra4",
+              "Tienda — categoría Alfombra"
+            ],
+            [
+              "clientes/valbaby/tienda-de-amazon-banera",
+              "Tienda — categoría Bañera"
+            ],
+            [
+              "clientes/valbaby/tienda-de-amazon-colchoneta",
+              "Tienda — categoría Cambiador"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/valbaby/tienda-de-amazon-imagen-1-1",
+              "Banner — un espacio cómodo para cada cambio"
+            ],
+            [
+              "clientes/valbaby/tienda-de-amazon-imagen-1-2",
+              "Banner — un diseño para cada familia"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/valbaby/tienda-de-amazon-imagen-1-3",
+              "Banner — baño cómodo, rutina más fácil"
+            ],
+            [
+              "clientes/valbaby/tienda-de-amazon-imagen-1-4",
+              "Banner — diseñado para adaptarse"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/valbaby/tienda-de-amazon-imagen-1-3-1",
+              "Banner — elige su próxima aventura"
+            ],
+            [
+              "clientes/valbaby/tienda-de-amazon-imagen-2",
+              "Banner — cada instante, una nueva experiencia"
+            ]
+          ]
+        },
+        {
+          "tipo": "full",
+          "items": [
+            [
+              "clientes/valbaby/carta-de-agradecimiento-carta-de-agradecimiento-alfombra",
+              "Carta de agradecimiento postventa — 5 idiomas"
+            ]
+          ]
+        }
+      ],
+      "home": {
+        "destacado": true,
+        "cover": "Nuevos Logos/Valbaycare",
+        "alt": "Padre jugando con su bebé sobre una alfombra de juego Valbaby",
+        "carga": "eager",
+        "anio": "2024 — Act.",
+        "tags": [
+          "Shopify",
+          "Amazon",
+          "Print postventa"
+        ],
+        "cliente": "Puericultura — diseño e-commerce integral"
+      },
+      "archivo": {
+        "cats": [
+          "amazon",
+          "packaging"
+        ],
+        "meta": "Shopify · Amazon"
+      }
+    },
+    {
+      "slug": "ambiti",
+      "nombre": "Ambiti",
+      "logo": "marcas/ambiti",
+      "logo_alt": "Logo de Ambiti",
+      "cliente": "Ambiti",
+      "anio": "2026",
+      "sector": "Camping y caravaning",
+      "servicios": [
+        "Listados Amazon",
+        "Contenido A+",
+        "Infografía",
+        "Multiidioma"
+      ],
+      "descripcion_seo": "Case study: listados de Amazon y contenido A+ para Ambiti — monodosis WC Hydro para autocaravanas, en francés.",
+      "contexto": "Ambiti fabrica monodosis hidrosolubles para el WC químico de autocaravanas y caravanas. Un producto que se compra por confianza: el comprador necesita entender <strong>qué hace, cómo se usa y con qué depósitos es compatible</strong> antes de meterlo en su vehículo.",
+      "trabajo": "Diseñé los listados completos de las dos gamas —WC Hydro y WC Hydro Pino— para el mercado francés: imagen principal, infografías de modo de empleo, compatibilidad y formato, más los módulos de contenido A+. Dos líneas con <em>códigos de color propios</em>, naranja y rosa, que se distinguen en el lineal sin dejar de ser la misma marca.",
+      "resultado": "Un catálogo que explica un producto técnico <em>sin una sola línea de letra pequeña</em>: cada duda del comprador tiene su imagen.",
+      "cover": {
+        "img": "clientes/ambiti/1-fr",
+        "alt": "Listado principal de las monodosis Ambiti WC Hydro"
+      },
+      "galeria": [
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/ambiti/2-fr",
+              "Listado — circuito de aclarado limpio y protegido"
+            ],
+            [
+              "clientes/ambiti/3-fr",
+              "Listado — modo de empleo en 3 pasos"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/ambiti/4-fr",
+              "Listado — compatibilidad universal"
+            ],
+            [
+              "clientes/ambiti/5-fr",
+              "Listado — formato monodosis práctico"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/ambiti/a-plus-1",
+              "A+ Pino — stop a los malos olores"
+            ],
+            [
+              "clientes/ambiti/a-plus-2",
+              "A+ Pino — materiales de calidad"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/ambiti/a-plus-3",
+              "A+ Pino — rendimiento duradero"
+            ],
+            [
+              "clientes/ambiti/a-plus-4",
+              "A+ Pino — formato compacto y fácil de guardar"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/ambiti/a-plus-5",
+              "A+ Pino — la calidad Ambiti para tus viajes"
+            ],
+            [
+              "clientes/ambiti/a-plus-6",
+              "A+ Pino — comparativa frente a otras marcas"
+            ]
+          ]
+        }
+      ],
+      "home": {
+        "destacado": false,
+        "cover": "clientes/ambiti/1-fr",
+        "alt": "Listado principal de las monodosis Ambiti WC Hydro",
+        "carga": "lazy",
+        "anio": "2026",
+        "tags": [
+          "Listados Amazon",
+          "Contenido A+",
+          "Multiidioma"
+        ],
+        "cliente": "Camping y caravaning — mantenimiento"
+      },
+      "archivo": {
+        "cats": [
+          "amazon",
+          "aplus"
+        ],
+        "meta": "Foto · Amazon"
+      }
+    },
+    {
+      "slug": "mooiza",
+      "nombre": "Mooiza",
+      "logo": "marcas/mooiza",
+      "logo_alt": "Logo de Mooiza",
+      "cliente": "Mooiza",
+      "anio": "2026",
+      "sector": "Bienestar animal",
+      "servicios": [
+        "Listados Amazon",
+        "Contenido A+",
+        "Infografía"
+      ],
+      "descripcion_seo": "Case study: listados y contenido A+ para Mooiza Zen — suplemento calmante natural para perros.",
+      "contexto": "Mooiza Zen es un suplemento calmante para perros a base de rosa canina, hierba de San Juan, raíz de valeriana y L-triptófano. La categoría está llena de botes que se parecen entre sí y hablan de ingredientes, <strong>no del perro</strong>.",
+      "trabajo": "Diseñé el listado completo dándole la vuelta al enfoque: la primera imagen es el perro tranquilo, no el envase. A partir de ahí, las infografías van resolviendo lo práctico —tabla de dosificación por peso, ingredientes, situaciones de uso— y cierran con una comparativa frente a otros suplementos.",
+      "resultado": "Un verde suave y mucho aire donde la competencia grita: <em>la calma del producto se ve antes de leer nada.</em>",
+      "cover": {
+        "img": "clientes/mooiza/imagen-1",
+        "alt": "Listado principal de Mooiza Zen, suplemento calmante para perros"
+      },
+      "galeria": [
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/mooiza/imagen-2",
+              "Listado — calma natural para su día a día"
+            ],
+            [
+              "clientes/mooiza/imagen-3",
+              "Listado — tabla de alimentación por peso"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/mooiza/imagen-4",
+              "Listado — fórmula con ingredientes naturales"
+            ],
+            [
+              "clientes/mooiza/imagen-5",
+              "Listado — apoyo en situaciones cotidianas"
+            ]
+          ]
+        },
+        {
+          "tipo": "full",
+          "items": [
+            [
+              "clientes/mooiza/imagen-6",
+              "Listado — comparativa frente a otros suplementos"
+            ]
+          ]
+        }
+      ],
+      "home": {
+        "destacado": false,
+        "cover": "clientes/mooiza/imagen-1",
+        "alt": "Listado principal de Mooiza Zen, suplemento calmante para perros",
+        "carga": "lazy",
+        "anio": "2026",
+        "tags": [
+          "Listados Amazon",
+          "Contenido A+",
+          "Infografía"
+        ],
+        "cliente": "Bienestar animal — suplementos"
+      },
+      "archivo": {
+        "cats": [
+          "amazon",
+          "aplus"
+        ],
+        "meta": "Amazon · A+"
+      }
+    },
+    {
+      "slug": "ubaby",
+      "nombre": "Ubaby",
+      "logo": "marcas/ubaby",
+      "logo_alt": "Logo de Ubaby",
+      "cliente": "Ubaby",
+      "anio": "2026",
+      "sector": "Puericultura",
+      "servicios": [
+        "Listados Amazon",
+        "Contenido A+",
+        "Infografía"
+      ],
+      "descripcion_seo": "Case study: listados y contenido A+ para Ubaby — piscina de bolas plegable para bebés.",
+      "contexto": "Ubaby vende una piscina de bolas plegable para bebés. El comprador es un padre o una madre con dos preguntas en la cabeza: <strong>¿es seguro?</strong> y <strong>¿dónde lo guardo después?</strong>",
+      "trabajo": "Diseñé el listado y el contenido A+ para responder a esas dos preguntas antes que a ninguna otra: certificaciones y materiales al principio, plegado y almacenaje justo detrás, y solo entonces el juego. Las medidas —120 cm de diámetro, bolas de 7 cm— van marcadas sobre la propia foto para que <em>no haya que imaginárselas</em>.",
+      "resultado": "Una paleta de crudos y arena que hace que un juguete infantil encaje en el salón: <em>vender también es no chirriar.</em>",
+      "cover": {
+        "img": "clientes/ubaby/imagen-1",
+        "alt": "Listado principal de la piscina de bolas plegable de Ubaby"
+      },
+      "galeria": [
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/ubaby/imagen-3",
+              "Listado — plegable y fácil de montar"
+            ],
+            [
+              "clientes/ubaby/imagen-4",
+              "Listado — bolas suaves y seguras"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/ubaby/imagen-5",
+              "Listado — paquete completo"
+            ],
+            [
+              "clientes/ubaby/imagen-6",
+              "Listado — bolas XL de 7 cm"
+            ]
+          ]
+        },
+        {
+          "tipo": "full",
+          "items": [
+            [
+              "clientes/ubaby/imagen-7",
+              "Listado — 120 cm de espacio para jugar"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/ubaby/a-plus-1",
+              "A+ — materiales seguros y certificados"
+            ],
+            [
+              "clientes/ubaby/a-plus-2",
+              "A+ — fácil de guardar"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/ubaby/a-plus-3",
+              "A+ — juega dentro y fuera de casa"
+            ],
+            [
+              "clientes/ubaby/a-plus-4",
+              "A+ — mucho más que una piscina de bolas"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/ubaby/a-plus-5",
+              "A+ — un espacio estimulante para jugar"
+            ],
+            [
+              "clientes/ubaby/a-plus-6",
+              "A+ — comparativa frente a otras marcas"
+            ]
+          ]
+        }
+      ],
+      "home": {
+        "destacado": false,
+        "cover": "clientes/ubaby/imagen-1",
+        "alt": "Listado principal de la piscina de bolas plegable de Ubaby",
+        "carga": "lazy",
+        "anio": "2026",
+        "tags": [
+          "Listados Amazon",
+          "Contenido A+",
+          "Infografía"
+        ],
+        "cliente": "Puericultura — juego infantil"
+      },
+      "archivo": {
+        "cats": [
+          "amazon",
+          "aplus"
+        ],
+        "meta": "Amazon · A+"
+      }
+    },
+    {
+      "slug": "mibebestore",
+      "nombre": "mibebéstore",
+      "logo": "marcas/mibebestore",
+      "logo_alt": "Logo de mibebéstore",
+      "cliente": "mibebéstore",
+      "anio": "2026",
+      "sector": "Puericultura",
+      "servicios": [
+        "Listados Amazon",
+        "Contenido A+",
+        "Infografía"
+      ],
+      "descripcion_seo": "Case study: listados Amazon y contenido A+ para mibebéstore — juego de sábanas de cuna.",
+      "contexto": "mibebéstore es una marca alicantina de textil de cuna. Vende un juego de sábanas —bajera ajustable, encimera, funda de almohada y chupetero—, y ahí el problema no es el precio: es que <strong>en una miniatura todas las sábanas blancas son la misma sábana blanca</strong>.",
+      "trabajo": "Saqué a la primera imagen lo único que no se puede tocar desde el móvil: el tacto. Tejido suave, transpirable, equilibrio térmico y 100 % algodón, cada atributo con su icono. Las medidas van marcadas sobre la cuna real, y el pack se despieza en una sola imagen para que <em>nadie tenga que leer la descripción</em> para saber qué le llega a casa.",
+      "resultado": "Beige, crema y madera: la paleta de la habitación donde va a acabar el producto. <em>El listado se parece a la cuna del comprador, no al catálogo del fabricante.</em>",
+      "cover": {
+        "img": "clientes/mibebestore/1",
+        "alt": "Listado principal del juego de sábanas de cuna de mibebéstore"
+      },
+      "galeria": [
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/mibebestore/2",
+              "Listado — sábana bajera ajustable de 120 × 60 cm"
+            ],
+            [
+              "clientes/mibebestore/3",
+              "Listado — resistente a lavados frecuentes"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/mibebestore/4",
+              "Listado — tranquilidad para toda tu familia"
+            ],
+            [
+              "clientes/mibebestore/5",
+              "Listado — el paquete completo, pieza a pieza"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/mibebestore/a-plus-1",
+              "A+ — un descanso más tranquilo"
+            ],
+            [
+              "clientes/mibebestore/a-plus-2",
+              "A+ — confort y bienestar en todo momento"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/mibebestore/a-plus-3",
+              "A+ — comodidad para el bebé, tranquilidad para ti"
+            ],
+            [
+              "clientes/mibebestore/a-plus-4",
+              "A+ — una marca española, cerca de las familias de aquí"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/mibebestore/a-plus-5",
+              "A+ — diseñado para el día a día"
+            ],
+            [
+              "clientes/mibebestore/a-plus-6",
+              "A+ — comparativa frente a otras marcas"
+            ]
+          ]
+        }
+      ],
+      "home": {
+        "destacado": false,
+        "cover": "clientes/mibebestore/1",
+        "alt": "Listado principal del juego de sábanas de cuna de mibebéstore",
+        "carga": "lazy",
+        "anio": "2026",
+        "tags": [
+          "Listados Amazon",
+          "Contenido A+",
+          "Infografía"
+        ],
+        "cliente": "Puericultura — textil de cuna"
+      },
+      "archivo": {
+        "cats": [
+          "amazon",
+          "aplus"
+        ],
+        "meta": "Amazon · A+"
+      }
+    },
+    {
+      "slug": "neobit",
+      "nombre": "Neobit",
+      "logo": "marcas/neobit",
+      "logo_alt": "Logo de Neobit Pharma",
+      "cliente": "Neobit Pharma",
+      "anio": "2026",
+      "sector": "Farmacia y complementos",
+      "servicios": [
+        "Listados Amazon",
+        "Contenido A+",
+        "Infografía"
+      ],
+      "descripcion_seo": "Case study: listados Amazon y contenido A+ para Donnabit Meno, el complemento para la menopausia de Neobit Pharma.",
+      "contexto": "Donnabit Meno es un complemento para la menopausia de Neobit Pharma, presente en más de 200 farmacias. Saltar del mostrador a Amazon cambia la conversación: <strong>en la farmacia hay alguien que explica; en la ficha no hay nadie</strong>.",
+      "trabajo": "Ordené el listado por síntoma y no por ingrediente. Primero lo que la compradora ya está notando —sofocos, descanso irregular, cambios de ánimo— y solo después la fórmula, ya como respuesta. El aval de farmacia y la pauta (<em>una cápsula al día, treinta días</em>) van en imagen propia, porque son las dos cosas que cierran la compra.",
+      "resultado": "Serif negro sobre rosa, mujeres de la edad real de quien compra y ni un eufemismo. <em>Hablarle de frente a quien te está buscando.</em>",
+      "cover": {
+        "img": "clientes/neobit/1",
+        "alt": "Listado principal de Donnabit Meno, el complemento para la menopausia de Neobit Pharma"
+      },
+      "galeria": [
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/neobit/2",
+              "Listado — más confort en tu día a día"
+            ],
+            [
+              "clientes/neobit/3",
+              "Listado — descanso y ánimo en equilibrio"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/neobit/4",
+              "Listado — un mes pleno y confortable"
+            ],
+            [
+              "clientes/neobit/5",
+              "Listado — fórmula multiactiva"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/neobit/a-plus-1",
+              "A+ — acompaña tu equilibrio hormonal"
+            ],
+            [
+              "clientes/neobit/a-plus-2",
+              "A+ — cuando tu cuerpo cambia, tu bienestar importa"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/neobit/a-plus-3",
+              "A+ — bienestar integral"
+            ],
+            [
+              "clientes/neobit/a-plus-4",
+              "A+ — avalado en más de 200 farmacias"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/neobit/a-plus-5",
+              "A+ — un gesto diario para cuidarte"
+            ],
+            [
+              "clientes/neobit/a-plus-6",
+              "A+ — comparativa frente a otras marcas"
+            ]
+          ]
+        }
+      ],
+      "home": {
+        "destacado": false,
+        "cover": "clientes/neobit/1",
+        "alt": "Listado principal de Donnabit Meno, el complemento para la menopausia de Neobit Pharma",
+        "carga": "lazy",
+        "anio": "2026",
+        "tags": [
+          "Listados Amazon",
+          "Contenido A+",
+          "Infografía"
+        ],
+        "cliente": "Farmacia — complementos para la mujer"
+      },
+      "archivo": {
+        "cats": [
+          "amazon",
+          "aplus"
+        ],
+        "meta": "Amazon · A+"
+      }
+    },
+    {
+      "slug": "saludbox",
+      "nombre": "Saludbox",
+      "logo": "marcas/saludbox",
+      "logo_alt": "Logo de Saludbox",
+      "cliente": "Saludbox",
+      "anio": "2026",
+      "sector": "Complementos alimenticios",
+      "servicios": [
+        "Listados Amazon",
+        "Contenido A+",
+        "Infografía"
+      ],
+      "descripcion_seo": "Case study: listados Amazon y contenido A+ para Morpheo, las gominolas de melatonina de Saludbox.",
+      "contexto": "Morpheo es melatonina en formato gominola. La categoría del descanso está llena de botes que se parecen entre sí, y la decisión se toma en la miniatura: <strong>si en dos segundos no se entiende qué es y para qué sirve</strong>, el comprador pasa al siguiente.",
+      "trabajo": "Monté el listado alrededor de la rutina y no del producto: cuándo se toma, cómo se toma y qué se nota al día siguiente. Los activos —melatonina, valeriana, melisa, manzanilla, lavanda y ashwagandha— van uno a uno, con su porqué al lado. Y los <em>sin</em> —sin azúcar, vegano, sin gluten, sin lactosa, sin gelatina animal, sin conservantes— ocupan una imagen entera, porque en esta categoría son media compra.",
+      "resultado": "Un morado nocturno sostenido en las once piezas, del listado al A+. <em>Una marca de descanso tiene que dar sueño al mirarla.</em>",
+      "cover": {
+        "img": "clientes/saludbox/imagen-1",
+        "alt": "Listado principal de Morpheo, las gominolas de melatonina de Saludbox"
+      },
+      "galeria": [
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/saludbox/imagen-2",
+              "Listado — ayuda a tu descanso"
+            ],
+            [
+              "clientes/saludbox/imagen-3",
+              "Listado — gominolas vegetales sin azúcar"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/saludbox/imagen-4",
+              "Listado — los seis activos de la fórmula"
+            ],
+            [
+              "clientes/saludbox/imagen-5",
+              "Listado — 60 gominolas, una toma diaria"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/saludbox/a-plus-1",
+              "A+ — bienestar en formato gummy"
+            ],
+            [
+              "clientes/saludbox/a-plus-2",
+              "A+ — el ritual antes de dormir en tres pasos"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/saludbox/a-plus-3",
+              "A+ — ciencia, innovación y bienestar"
+            ],
+            [
+              "clientes/saludbox/a-plus-4",
+              "A+ — un compromiso responsable"
+            ]
+          ]
+        },
+        {
+          "tipo": "g-2",
+          "items": [
+            [
+              "clientes/saludbox/a-plus-5",
+              "A+ — cuidarse no tiene que ser complicado"
+            ],
+            [
+              "clientes/saludbox/a-plus-6",
+              "A+ — comparativa frente a otras marcas"
+            ]
+          ]
+        }
+      ],
+      "home": {
+        "destacado": false,
+        "cover": "clientes/saludbox/imagen-1",
+        "alt": "Listado principal de Morpheo, las gominolas de melatonina de Saludbox",
+        "carga": "lazy",
+        "anio": "2026",
+        "tags": [
+          "Listados Amazon",
+          "Contenido A+",
+          "Infografía"
+        ],
+        "cliente": "Complementos alimenticios — descanso"
+      },
+      "archivo": {
+        "cats": [
+          "amazon",
+          "aplus"
+        ],
+        "meta": "Amazon · A+"
+      }
+    },
+    {
+      "slug": "zendreams",
+      "nombre": "ZenDreams",
+      "logo": "marcas/zendreams",
+      "logo_alt": "Logo de ZenDreams",
+      "cliente": "ZenDreams",
+      "anio": "2026",
+      "sector": "Descanso infantil",
+      "servicios": [
+        "Print",
+        "Ilustración",
+        "Piezas postventa"
+      ],
+      "descripcion_seo": "Case study: piezas postventa e ilustración de personaje para ZenDreams — almohadas viscoelásticas infantiles.",
+      "contexto": "ZenDreams vende almohadas viscoelásticas para niños. Querían que la pieza que va dentro de la caja —la que se lee en casa, con el producto ya comprado— hiciera algo más que enumerar instrucciones de lavado.",
+      "trabajo": "Diseñé el folleto a doble cara: una cara con el cuidado del producto resuelto en cuatro pictogramas, y la otra con <strong>Nilo</strong>, la oveja mascota de la marca, ilustrada y presentada en primera persona. Mismo cielo, mismas nubes y mismo azul en las dos caras.",
+      "resultado": "La instrucción de lavado y el personaje comparten página: <em>lo aburrido entra porque va acompañado.</em>",
+      "galeria": [
+        {
+          "tipo": "pdf",
+          "items": [
+            [
+              "clientes/zendreams/Folleto.pdf",
+              "Folleto — las dos caras"
+            ]
+          ]
+        }
+      ],
+      "home": {
+        "destacado": false,
+        "anio": "2026",
+        "tags": [
+          "Print",
+          "Ilustración",
+          "Postventa"
+        ],
+        "cliente": "Descanso infantil — almohadas"
+      },
+      "archivo": {
+        "cats": [
+          "packaging"
+        ],
+        "meta": "Print · Ilustración"
+      }
+    }
+  ],
+  "archivo_extra": []
+}

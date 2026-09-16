@@ -1,0 +1,12 @@
+# Archivos de trabajo que no forman parte de la web publicada
+_originales/
+_originales_reducidos/
+
+# Configuración local de editores y herramientas
+.claude/
+.vscode/
+
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store

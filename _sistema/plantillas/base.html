@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="${idioma}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>${titulo}</title>
+<meta name="description" content="${descripcion}">
+<meta property="og:type" content="${og_tipo}">
+<meta property="og:title" content="${og_titulo}">
+<meta property="og:description" content="${og_descripcion}">
+<meta property="og:image" content="${og_imagen}">
+<meta property="og:locale" content="${locale}">
+<meta name="theme-color" content="${theme_color}">
+<link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" fill="%230B0B0C"/><text x="32" y="42" font-family="Arial Black,Arial" font-size="26" font-weight="900" fill="%23F4F1EA" text-anchor="middle">FP</text></svg>'>
+<link rel="preload" href="${raiz}assets/fonts/archivo-latin-900-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="${raiz}assets/fonts/space-mono-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="${raiz}assets/css/style.css">
+${cabeza_extra}
+</head>
+<body>
+
+<div class="transition" aria-hidden="true"><span class="t-label">${transicion}</span></div>
+<div class="progress" aria-hidden="true"><span></span></div>
+
+${cabecera}
+${menu}
+${main}
+${pie}
+
+<script src="${raiz}assets/js/vendor/gsap.min.js"></script>
+<script src="${raiz}assets/js/vendor/ScrollTrigger.min.js"></script>
+<script src="${raiz}assets/js/vendor/lenis.min.js"></script>
+<script src="${raiz}assets/js/main.js"></script>
+</body>
+</html>

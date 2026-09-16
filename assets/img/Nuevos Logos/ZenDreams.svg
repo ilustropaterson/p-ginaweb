@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: LuckiestGuy-Regular, 'Luckiest Guy';
+        font-size: 128.92px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #f4f1eb;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-6 {
+        letter-spacing: -.03em;
+      }
+    </style>
+  </defs>
+  <path class="cls-2" d="M446.4,377c-39.09,0-70.78-31.69-70.78-70.78,0-22.62,10.61-42.75,27.12-55.71-33.96,5.21-59.96,34.55-59.96,69.96,0,39.09,31.69,70.78,70.78,70.78,16.48,0,31.64-5.63,43.67-15.07-3.53.54-7.14.82-10.82.82Z"/>
+  <text class="cls-1" transform="translate(45.88 504.42)"><tspan class="cls-5" x="0" y="0">Z</tspan><tspan x="61.38" y="0">enD</tspan><tspan class="cls-3" x="294.86" y="0">r</tspan><tspan class="cls-6" x="372.35" y="0">e</tspan><tspan class="cls-4" x="443.23" y="0">ams</tspan></text>
+</svg>

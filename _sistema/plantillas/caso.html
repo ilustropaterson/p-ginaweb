@@ -1,0 +1,51 @@
+<main>
+  <section class="case-hero">
+    <a class="back" href="../index.html#trabajo">← Volver a proyectos</a>
+    <h1 class="display" data-reveal="lines"><span class="line-mask"><span>${nombre}</span></span></h1>
+    <div class="case-meta" data-reveal-group>
+      <div><span class="label">Cliente</span><span class="client-logo"><img src="../assets/img/${logo}" alt="${logo_alt}"></span><p>${cliente}</p></div>
+      <div><span class="label">Año</span><p>${anio}</p></div>
+      <div><span class="label">Sector</span><p>${sector}</p></div>
+      <div><span class="label">Servicios</span><p>${servicios_txt}</p></div>
+    </div>
+  </section>
+
+${portada}
+
+  <section class="case-section">
+    <div class="inner">
+      <h2><span class="num">01 — Contexto</span>El punto de partida</h2>
+      <div><p data-reveal>${contexto}</p></div>
+    </div>
+  </section>
+
+  <section class="case-section" style="padding-top:0">
+    <div class="inner">
+      <h2><span class="num">02 — Trabajo</span>Qué diseñé</h2>
+      <div>
+        <p data-reveal>${trabajo}</p>
+        <div class="deliverables" data-reveal-group>${tags}</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="case-gallery" aria-label="Galería del proyecto">
+${galeria}
+  </section>
+
+  <section class="case-result">
+    <span class="label">Resultado</span>
+    <blockquote data-reveal>${resultado}</blockquote>
+  </section>
+
+  <nav class="case-nav" aria-label="Más proyectos">
+    <a class="prev" href="${prev_slug}.html">
+      <span class="dir">← Proyecto anterior</span>
+      <span class="name">${prev_nombre}</span>
+    </a>
+    <a class="next" href="${next_slug}.html">
+      <span class="dir">Siguiente proyecto →</span>
+      <span class="name">${next_nombre}</span>
+    </a>
+  </nav>
+</main>

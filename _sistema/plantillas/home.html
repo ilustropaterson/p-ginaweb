@@ -1,0 +1,193 @@
+<main id="top">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" aria-label="Presentación">
+    <div class="hero-top">
+      <p class="label">${hero_label}</p>
+      <p class="label hero-status"><span class="dot" aria-hidden="true"></span>${hero_estado}</p>
+    </div>
+
+    <h1 class="hero-title">
+      <span class="display o-hidden" data-split>${hero_titulo_1}</span>
+      <span class="row2">
+        <span class="display o-hidden" data-split>${hero_titulo_2}</span>
+      </span>
+    </h1>
+
+    <div class="hero-sub">
+      <p class="hero-claim">
+        <span class="rotator label" aria-hidden="true">${hero_rotador_prefijo}
+          <span class="word-box">
+${hero_rotador_palabras}
+          </span>
+        </span><br>
+        ${hero_claim}
+      </p>
+      <div class="hero-ctas">
+${hero_ctas}
+      </div>
+    </div>
+
+    <div class="scroll-hint" aria-hidden="true"><span>Scroll</span><span class="lin"></span></div>
+  </section>
+
+  <!-- ================= MARQUEE ================= -->
+  <div class="marquee" aria-hidden="true">
+    <div class="track">
+${marquee}
+    </div>
+  </div>
+
+  <!-- ================= PROYECTOS DESTACADOS ================= -->
+  <section class="section featured" id="trabajo">
+    <div class="sec-head">
+      <h2 class="display" data-reveal="lines">${destacados_titulo}</h2>
+      <p class="label">${destacados_label}</p>
+    </div>
+
+${destacados}
+  </section>
+
+  <!-- ================= ARCHIVO / CLIENTES ================= -->
+  <section class="section" id="archivo">
+    <div class="sec-head">
+      <h2 class="display" data-reveal="lines">${archivo_titulo}</h2>
+      <p class="label">${archivo_label}</p>
+    </div>
+
+    <div class="filters" role="group" aria-label="Filtrar proyectos">
+${filtros}
+    </div>
+
+    <div class="archive-grid">
+${archivo}
+    </div>
+  </section>
+
+  <!-- ================= SERVICIOS ================= -->
+  <section class="section" id="servicios">
+    <div class="sec-head">
+      <h2 class="display" data-reveal="lines">${servicios_titulo}</h2>
+      <p class="label">${servicios_label}</p>
+    </div>
+
+    <div class="services-list">
+${servicios}
+    </div>
+
+    <!-- Proceso -->
+    <div class="process" data-reveal-group>
+${proceso}
+    </div>
+  </section>
+
+  <!-- ================= SOBRE MÍ ================= -->
+  <section class="section" id="sobre-mi">
+    <div class="sec-head">
+      <h2 class="display" data-reveal="lines">${sobre_titulo}</h2>
+      <p class="label">${sobre_label}</p>
+    </div>
+
+    <div class="about-grid">
+      <figure class="about-photo" data-img-reveal data-parallax>
+        <img src="assets/img/${sobre_foto}" alt="${sobre_foto_alt}" loading="eager" decoding="async" fetchpriority="low">
+        <figcaption class="label">${sobre_foto_pie}</figcaption>
+      </figure>
+
+      <div class="about-body">
+        <h2 data-reveal>${sobre_claim}</h2>
+${sobre_parrafos}
+
+        <div class="about-cols">
+${sobre_columnas}
+        </div>
+
+        <div class="stats">
+${sobre_stats}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CLIENTES ================= -->
+  <section class="clients" aria-label="Marcas con las que he trabajado">
+    <span class="label">${clientes_label}</span>
+    <div class="client-row"><div class="track">
+${clientes_fila_1}
+    </div></div>
+    <div class="client-row rev"><div class="track">
+${clientes_fila_2}
+    </div></div>
+  </section>
+
+  <!-- ================= CONTACTO ================= -->
+  <section class="contact" id="contacto">
+    <p class="label" data-reveal>${contacto_label}</p>
+    <h2 class="display" data-reveal="lines">${contacto_titulo}</h2>
+    <a class="email-link" href="mailto:${email}" data-cursor="ver" data-cursor-label="${contacto_cursor}">
+      ${email} <span class="arrow">↗</span>
+    </a>
+    <!-- El formulario va a FormSubmit: el correo lo manda su servidor, así que
+         la web sigue siendo estática y vale para cualquier hosting. Sin JS el
+         formulario se envía igual (POST normal) y responde su página de gracias;
+         con JS se envía por detrás y el aviso sale aquí mismo. -->
+    <form class="contact-form"
+          method="POST"
+          action="https://formsubmit.co/${email}"
+          data-form-contacto="https://formsubmit.co/ajax/${email}"
+          data-enviando="${contacto_form_enviando}"
+          data-exito="${contacto_form_exito}"
+          data-error="${contacto_form_error}"
+          novalidate>
+
+      <input type="hidden" name="_subject"  value="${contacto_form_asunto}">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_captcha"  value="false">
+      <!-- Trampa antispam: invisible para las personas. Si viene rellena, fuera. -->
+      <input class="honey" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+      <p class="label" data-reveal>${contacto_form_label}</p>
+
+      <div class="form-grid" data-reveal-group>
+        <p class="field">
+          <label for="f-nombre">${contacto_form_nombre}</label>
+          <input id="f-nombre" name="name" type="text" required
+                 autocomplete="name" placeholder="${contacto_form_nombre_pista}"
+                 data-error="${contacto_form_nombre_error}">
+        </p>
+        <p class="field">
+          <label for="f-email">${contacto_form_email}</label>
+          <input id="f-email" name="email" type="email" required
+                 autocomplete="email" placeholder="${contacto_form_email_pista}"
+                 data-error="${contacto_form_email_error}">
+        </p>
+        <p class="field field-ancho">
+          <label for="f-mensaje">${contacto_form_mensaje}</label>
+          <textarea id="f-mensaje" name="message" rows="4" required
+                    placeholder="${contacto_form_mensaje_pista}"
+                    data-error="${contacto_form_mensaje_error}"></textarea>
+        </p>
+        <div class="form-pie">
+          <button class="btn solid" type="submit">${contacto_form_enviar}</button>
+          <p class="form-aviso" role="status" aria-live="polite"></p>
+        </div>
+      </div>
+    </form>
+
+    <div class="contact-meta" data-reveal-group>
+      <div class="col">
+        <span class="label">Redes</span>
+        <a href="${linkedin_url}" target="_blank" rel="noopener">${linkedin_texto}</a>
+      </div>
+      <div class="col">
+        <span class="label">Base</span>
+        <span>${base}</span>
+      </div>
+      <div class="col">
+        <span class="label">Abierto a</span>
+        <span>${abierto_a}</span>
+      </div>
+    </div>
+  </section>
+
+</main>
