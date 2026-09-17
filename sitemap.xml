@@ -1,20 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Pon tu dominio en "dominio" (contenido.json) y vuelve a generar. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://TUDOMINIO.com/</loc><priority>1.0</priority></url>
-  <url><loc>https://TUDOMINIO.com/proyectos/injusa.html</loc><priority>0.8</priority></url>
-  <url><loc>https://TUDOMINIO.com/proyectos/auvra.html</loc><priority>0.8</priority></url>
-  <url><loc>https://TUDOMINIO.com/proyectos/puremind.html</loc><priority>0.8</priority></url>
-  <url><loc>https://TUDOMINIO.com/proyectos/tottal.html</loc><priority>0.8</priority></url>
-  <url><loc>https://TUDOMINIO.com/proyectos/gubosa.html</loc><priority>0.8</priority></url>
-  <url><loc>https://TUDOMINIO.com/proyectos/mommy-confort.html</loc><priority>0.8</priority></url>
-  <url><loc>https://TUDOMINIO.com/proyectos/rupeca.html</loc><priority>0.8</priority></url>
-  <url><loc>https://TUDOMINIO.com/proyectos/valbaby.html</loc><priority>0.8</priority></url>
-  <url><loc>https://TUDOMINIO.com/proyectos/ambiti.html</loc><priority>0.8</priority></url>
-  <url><loc>https://TUDOMINIO.com/proyectos/mooiza.html</loc><priority>0.8</priority></url>
-  <url><loc>https://TUDOMINIO.com/proyectos/ubaby.html</loc><priority>0.8</priority></url>
-  <url><loc>https://TUDOMINIO.com/proyectos/mibebestore.html</loc><priority>0.8</priority></url>
-  <url><loc>https://TUDOMINIO.com/proyectos/neobit.html</loc><priority>0.8</priority></url>
-  <url><loc>https://TUDOMINIO.com/proyectos/saludbox.html</loc><priority>0.8</priority></url>
-  <url><loc>https://TUDOMINIO.com/proyectos/zendreams.html</loc><priority>0.8</priority></url>
+
+  <url>
+    <loc>https://paterson.es/</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://paterson.es/proyectos/injusa</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://paterson.es/proyectos/auvra</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://paterson.es/proyectos/puremind</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://paterson.es/proyectos/tottal</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://paterson.es/proyectos/gubosa</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://paterson.es/proyectos/mommy-confort</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://paterson.es/proyectos/rupeca</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://paterson.es/proyectos/valbaby</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://paterson.es/proyectos/ambiti</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://paterson.es/proyectos/mooiza</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://paterson.es/proyectos/ubaby</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://paterson.es/proyectos/mibebestore</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://paterson.es/proyectos/neobit</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://paterson.es/proyectos/saludbox</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://paterson.es/proyectos/zendreams</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>

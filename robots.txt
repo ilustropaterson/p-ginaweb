@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://shiny-wind-573d.ilustropaterson.workers.dev/sitemap.xml
+
+Sitemap: https://paterson.es/sitemap.xml

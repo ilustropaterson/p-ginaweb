@@ -28,7 +28,6 @@
    23. Reduced motion
    ========================================================================== */
 
-
 /* ----------------------------------------------------------------- 01. Fuentes
    Locales: el sitio funciona sin conexión y sin CDN. */
 
@@ -40,20 +39,8 @@
 }
 @font-face {
   font-family: 'Archivo';
-  src: url('../fonts/archivo-latin-500-normal.woff2') format('woff2');
-  font-weight: 500;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Archivo';
   src: url('../fonts/archivo-latin-700-normal.woff2') format('woff2');
   font-weight: 700;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Archivo';
-  src: url('../fonts/archivo-latin-800-normal.woff2') format('woff2');
-  font-weight: 800;
   font-display: swap;
 }
 @font-face {
@@ -74,7 +61,6 @@
   font-weight: 700;
   font-display: swap;
 }
-
 
 /* ------------------------------------------------------------------ 02. Tokens */
 
@@ -104,7 +90,6 @@
   --ease: cubic-bezier(.65, .05, 0, 1);
   --dur: .9s;
 }
-
 
 /* -------------------------------------------------------------------- 03. Base */
 
@@ -169,16 +154,6 @@ button {
   outline-offset: 3px;
 }
 
-/* Con JS activo el cursor nativo se sustituye por el propio (solo en desktop) */
-@media (hover: hover) and (pointer: fine) {
-  html.js.has-cursor,
-  html.js.has-cursor a,
-  html.js.has-cursor button {
-    cursor: none;
-  }
-}
-
-
 /* --------------------------------------------- 04. Utilidades tipográficas */
 
 .label {
@@ -214,81 +189,7 @@ button {
 }
 .line-mask > span {
   display: block;
-  will-change: transform;
 }
-
-
-/* --------------------------------------------------- 05. Cursor personalizado */
-
-.cursor,
-.cursor-ring {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 9999;
-  display: none;
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-  pointer-events: none;
-}
-
-.cursor {
-  width: 6px;
-  height: 6px;
-  background: var(--ink);
-}
-
-.cursor-ring {
-  width: 36px;
-  height: 36px;
-  border: 1px solid rgba(244, 241, 234, .4);
-  place-items: center;
-  transition:
-    width .35s var(--ease),
-    height .35s var(--ease),
-    background-color .35s,
-    border-color .35s;
-}
-
-@media (hover: hover) and (pointer: fine) {
-  html.js .cursor {
-    display: block;
-  }
-  html.js .cursor-ring {
-    display: grid;
-  }
-}
-
-.cursor-ring .cursor-label {
-  font-family: var(--mono);
-  font-size: 10px;
-  letter-spacing: .12em;
-  text-transform: uppercase;
-  color: var(--bg);
-  opacity: 0;
-  transition: opacity .25s;
-}
-
-/* Sobre un proyecto: círculo grande con la palabra dentro */
-.cursor-ring.is-view {
-  width: 84px;
-  height: 84px;
-  background: var(--ink);
-  border-color: var(--ink);
-}
-.cursor-ring.is-view .cursor-label {
-  opacity: 1;
-}
-
-/* Sobre cualquier otro enlace: círculo intermedio translúcido */
-.cursor-ring.is-mini {
-  width: 56px;
-  height: 56px;
-  background: rgba(244, 241, 234, .12);
-  border-color: transparent;
-  backdrop-filter: blur(2px);
-}
-
 
 /* ---------------------------------------------------- 06. Barra de progreso */
 
@@ -311,7 +212,6 @@ button {
   transform-origin: 0 50%;
 }
 
-
 /* ---------------------------------------------------------------- 07. Cabecera */
 
 /* Barra propia, opaca y siempre por encima del hero. Antes iba en
@@ -327,17 +227,9 @@ button {
   justify-content: space-between;
   gap: 20px;
   padding: 0 var(--pad);
-  background: rgba(11, 11, 12, .88);
-  -webkit-backdrop-filter: saturate(150%) blur(14px);
-  backdrop-filter: saturate(150%) blur(14px);
+  background: rgba(11, 11, 12, .94);
   border-bottom: 1px solid var(--line-soft);
   transition: transform .5s var(--ease);
-}
-/* Sin backdrop-filter (Firefox antiguo, algún WebView) la barra va maciza. */
-@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
-  .site-head {
-    background: var(--bg);
-  }
 }
 .site-head.is-hidden {
   transform: translateY(-110%);
@@ -345,8 +237,6 @@ button {
 /* Con el menú fullscreen abierto la barra sobra: solo hace falta el botón. */
 .site-head:has(.menu-btn[aria-expanded="true"]) {
   background: transparent;
-  -webkit-backdrop-filter: none;
-  backdrop-filter: none;
   border-bottom-color: transparent;
 }
 
@@ -433,7 +323,6 @@ button {
   }
 }
 
-
 /* ---------------------------------------------------------- 08. Menú fullscreen */
 
 .menu-overlay {
@@ -489,7 +378,6 @@ button {
   border-bottom: 1px solid var(--line);
 }
 
-
 /* ------------------------------------------------------ 09. Transición de página */
 
 .transition {
@@ -514,7 +402,6 @@ button {
   opacity: 0;
 }
 
-
 /* --------------------------------------------------- 10. Botones y etiquetas */
 
 .btn {
@@ -533,7 +420,6 @@ button {
   text-transform: uppercase;
   color: var(--ink);
   transition: color .45s var(--ease), border-color .45s;
-  will-change: transform;
 }
 /* Relleno que sube al hacer hover */
 .btn::before {
@@ -578,7 +464,6 @@ button {
   color: var(--muted);
   transition: border-color .3s, color .3s;
 }
-
 
 /* -------------------------------------------------------------------- 11. Hero */
 
@@ -636,7 +521,6 @@ button {
 /* Cada letra es su propio elemento: el JS las anima una a una */
 .hero-title .char {
   display: inline-block;
-  will-change: transform;
 }
 
 .hero-sub {
@@ -659,7 +543,7 @@ button {
 }
 .hero-claim strong {
   color: var(--ink);
-  font-weight: 500;
+  font-weight: 400;
 }
 .hero-ctas {
   display: flex;
@@ -734,7 +618,6 @@ html:not(.js) .rotator .word:first-child {
   to { top: 120%; }
 }
 
-
 /* ----------------------------------------------------------------- 12. Marquee */
 
 .marquee {
@@ -746,10 +629,10 @@ html:not(.js) .rotator .word:first-child {
   white-space: nowrap;
 }
 .marquee .track {
+  will-change: transform;
   display: flex;
   gap: 0;
   animation: marq 28s linear infinite;
-  will-change: transform;
 }
 .marquee:hover .track {
   animation-play-state: paused;
@@ -760,7 +643,7 @@ html:not(.js) .rotator .word:first-child {
   gap: 22px;
   padding: 0 22px;
   font-size: clamp(15px, 1.6vw, 22px);
-  font-weight: 800;
+  font-weight: 700;
   letter-spacing: -.01em;
   text-transform: uppercase;
 }
@@ -773,7 +656,6 @@ html:not(.js) .rotator .word:first-child {
 @keyframes marq {
   to { transform: translateX(-50%); }
 }
-
 
 /* --------------------------------------------------------------- 13. Secciones */
 
@@ -794,7 +676,6 @@ html:not(.js) .rotator .word:first-child {
 .sec-head .label {
   padding-bottom: 10px;
 }
-
 
 /* ------------------------------------------------- 14. Proyectos destacados */
 
@@ -830,7 +711,6 @@ html:not(.js) .rotator .word:first-child {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  will-change: transform;
 }
 
 .proj-info {
@@ -919,7 +799,6 @@ html:not(.js) .rotator .word:first-child {
   }
 }
 
-
 /* ------------------------------------------------------ 15. Archivo de clientes */
 
 .filters {
@@ -985,7 +864,6 @@ html:not(.js) .rotator .word:first-child {
   height: 100%;
   object-fit: cover;
   transition: transform .9s var(--ease);
-  will-change: transform;
 }
 .arch-item a:hover .arch-media img {
   transform: scale(1.07);
@@ -1063,7 +941,6 @@ html:not(.js) .rotator .word:first-child {
   white-space: nowrap;
 }
 
-
 /* --------------------------------------------------------------- 16. Servicios */
 
 .services-list {
@@ -1085,7 +962,7 @@ html:not(.js) .rotator .word:first-child {
 }
 .srv-head h3 {
   font-size: clamp(1.6rem, 4.6vw, 4.2rem);
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1;
   letter-spacing: -.02em;
   text-transform: uppercase;
@@ -1172,7 +1049,6 @@ html:not(.js) .rotator .word:first-child {
   .srv-body-inner { grid-template-columns: 1fr; }
 }
 
-
 /* ----------------------------------------------------------------- 17. Proceso */
 
 .process {
@@ -1209,7 +1085,6 @@ html:not(.js) .rotator .word:first-child {
   color: var(--muted);
 }
 
-
 /* --------------------------------------------------------------- 18. Sobre mí */
 
 .about-grid {
@@ -1234,7 +1109,6 @@ html:not(.js) .rotator .word:first-child {
   object-fit: cover;
   filter: grayscale(1) contrast(1.05);
   transition: filter .8s var(--ease);
-  will-change: transform;
 }
 .about-photo:hover img {
   filter: grayscale(0);
@@ -1252,7 +1126,7 @@ html:not(.js) .rotator .word:first-child {
 .about-body h2 {
   margin-bottom: 26px;
   font-size: clamp(1.9rem, 3.6vw, 3.4rem);
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1.06;
   letter-spacing: -.02em;
 }
@@ -1267,7 +1141,7 @@ html:not(.js) .rotator .word:first-child {
 }
 .about-body > p strong {
   color: var(--ink);
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .about-cols {
@@ -1329,7 +1203,6 @@ html:not(.js) .rotator .word:first-child {
   margin-top: 6px;
 }
 
-
 /* ------------------------------------------------- 19. Clientes (marquee doble) */
 
 .clients {
@@ -1348,6 +1221,7 @@ html:not(.js) .rotator .word:first-child {
   white-space: nowrap;
 }
 .client-row .track {
+  will-change: transform;
   display: flex;
   animation: marq 40s linear infinite;
 }
@@ -1370,7 +1244,6 @@ html:not(.js) .rotator .word:first-child {
   color: var(--ink);
   -webkit-text-stroke-color: transparent;
 }
-
 
 /* ---------------------------------------------------------------- 20. Contacto */
 
@@ -1440,7 +1313,6 @@ html:not(.js) .rotator .word:first-child {
 .contact-meta a:hover {
   border-color: var(--ink);
 }
-
 
 /* Formulario. Mismo idioma que el resto de la página: nada de cajas, solo una
    línea bajo cada campo que se enciende al enfocar. */
@@ -1566,7 +1438,6 @@ html:not(.js) .rotator .word:first-child {
   }
 }
 
-
 /* --------------------------------------------------------------------- 21. Pie */
 
 .site-foot {
@@ -1594,7 +1465,6 @@ html:not(.js) .rotator .word:first-child {
   align-items: center;
   gap: 8px;
 }
-
 
 /* ------------------------------------------------------------- 22. Case study */
 
@@ -1667,7 +1537,6 @@ html:not(.js) .rotator .word:first-child {
 .case-cover img {
   width: 100%;
   height: auto;
-  will-change: transform;
 }
 
 .case-section {
@@ -1686,7 +1555,7 @@ html:not(.js) .rotator .word:first-child {
 }
 .case-section h2 {
   font-size: clamp(1.5rem, 3vw, 2.4rem);
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1.05;
   letter-spacing: -.01em;
   text-transform: uppercase;
@@ -1703,7 +1572,7 @@ html:not(.js) .rotator .word:first-child {
 }
 .case-section p strong {
   color: var(--ink);
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .deliverables {
@@ -1748,7 +1617,6 @@ html:not(.js) .rotator .word:first-child {
 .g-media img {
   width: 100%;
   height: auto;
-  will-change: transform;
 }
 /* Documento empotrado (ZenDreams). El folleto es 425x567 pt, así que el marco
    guarda esa proporción y se limita el ancho para que no salga una columna
@@ -1857,7 +1725,6 @@ html:not(.js) .rotator .word:first-child {
   }
 }
 
-
 /* -------------------------------------------------------- 23. Reduced motion
    Quien pide menos movimiento no ve animaciones ni cursor personalizado. */
 
@@ -1875,9 +1742,5 @@ html:not(.js) .rotator .word:first-child {
   .marquee .track,
   .client-row .track {
     animation: none;
-  }
-  .cursor,
-  .cursor-ring {
-    display: none !important;
   }
 }

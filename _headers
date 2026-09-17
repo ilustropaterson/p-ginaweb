@@ -1,0 +1,28 @@
+# ---------------------------------------------------------------
+# Cabeceras para paterson.es (Cloudflare Workers Static Assets)
+# Este archivo NO se sirve al navegador: Cloudflare lo consume.
+# Máximo 100 reglas. La indentación de 2 espacios es obligatoria.
+# ---------------------------------------------------------------
+
+# Fuentes: nunca cambian de contenido -> caché de 1 año
+/assets/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Imágenes: cambian poco -> caché de 30 días
+/assets/img/*
+  Cache-Control: public, max-age=2592000
+
+# CSS y JS: SIN hash en el nombre, así que caché corta (1 día).
+# Si algún día añades hash al nombre (style.a3f9c2.css), sube
+# estos dos a: public, max-age=31536000, immutable
+/assets/css/*
+  Cache-Control: public, max-age=86400
+
+/assets/js/*
+  Cache-Control: public, max-age=86400
+
+# Seguridad y buenas prácticas para todo el sitio
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: SAMEORIGIN

@@ -110,56 +110,6 @@
   }
 
 
-  /* ======================================================================
-     Cursor personalizado (solo ratón)
-     ====================================================================== */
-
-  function cursorPersonalizado() {
-    if (!punteroFino || sinMovimiento) return;
-
-    raiz.classList.add('has-cursor');
-
-    var punto = document.createElement('div');
-    punto.className = 'cursor';
-
-    var anillo = document.createElement('div');
-    anillo.className = 'cursor-ring';
-    anillo.innerHTML = '<span class="cursor-label">Ver</span>';
-
-    document.body.appendChild(punto);
-    document.body.appendChild(anillo);
-
-    var x = -100, y = -100;          // posición real del ratón
-    var anilloX = -100, anilloY = -100;  // posición suavizada del anillo
-
-    window.addEventListener('mousemove', function (e) {
-      x = e.clientX;
-      y = e.clientY;
-    }, { passive: true });
-
-    (function seguir() {
-      anilloX += (x - anilloX) * 0.16;
-      anilloY += (y - anilloY) * 0.16;
-      punto.style.transform  = 'translate(' + x + 'px,' + y + 'px) translate(-50%,-50%)';
-      anillo.style.transform = 'translate(' + anilloX + 'px,' + anilloY + 'px) translate(-50%,-50%)';
-      requestAnimationFrame(seguir);
-    })();
-
-    var etiqueta = uno('.cursor-label', anillo);
-
-    document.addEventListener('mouseover', function (e) {
-      var proyecto = e.target.closest('[data-cursor="ver"]');
-      var enlace   = e.target.closest('a,button');
-
-      anillo.classList.toggle('is-view', !!proyecto);
-      anillo.classList.toggle('is-mini', !proyecto && !!enlace);
-
-      if (proyecto) {
-        etiqueta.textContent = proyecto.getAttribute('data-cursor-label') || 'Ver';
-      }
-    });
-  }
-
 
   /* ======================================================================
      Barra de progreso de lectura
@@ -321,9 +271,8 @@
 
     gsap.timeline({ defaults: { ease: 'power4.out' } })
       .from(letras,          { yPercent: 120, duration: 1.15, stagger: 0.022 }, 0.15)
-      .from('.hero-top > *', { y: -18, opacity: 0, duration: 0.8, stagger: 0.08 }, 0.7)
-      .from('.hero-sub > *', { y: 30, opacity: 0, duration: 0.9, stagger: 0.1 }, 0.85)
-      .from('.scroll-hint',  { opacity: 0, duration: 0.8 }, 1.4);
+      .from('.hero-top > *', { y: -18, duration: 0.8, stagger: 0.08 }, 0.7)
+      .from('.hero-sub > *', { y: 30, duration: 0.9, stagger: 0.1 }, 0.85);
 
     if (punteroFino) {
       // Cada letra da un saltito al pasar por encima.
@@ -768,7 +717,6 @@
 
   [
     scrollSuave,
-    cursorPersonalizado,
     barraProgreso,
     cabeceraAlScroll,
     menuFullscreen,
