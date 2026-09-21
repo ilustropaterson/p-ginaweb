@@ -239,9 +239,19 @@ function Pagina {
         [string]$OgImagen,
         [string]$Transicion,
         [string]$Main,
-        [string]$CabezaExtra = ''
+        [string]$CabezaExtra = '',
+        [string]$Url = ''
     )
     if ($EnCaso) { $raiz = '../' } else { $raiz = '' }
+
+    # Canonical y og:url solo si hay dominio: sin el, cualquier URL seria falsa.
+    if ($Url) {
+        $canonical = '<link rel="canonical" href="{0}">{1}' -f $Url, "`n"
+        $ogUrl     = '<meta property="og:url" content="{0}">' -f $Url
+    } else {
+        $canonical = ''
+        $ogUrl     = ''
+    }
 
     (Render (Join-Path $PLANTILLAS 'base.html') @{
         idioma         = $Sitio.idioma
@@ -252,6 +262,8 @@ function Pagina {
         og_titulo      = $OgTitulo
         og_descripcion = $OgDescripcion
         og_imagen      = $OgImagen
+        canonical      = $canonical
+        og_url         = $ogUrl
         locale         = $Sitio.locale
         theme_color    = $Sitio.theme_color
         cabeza_extra   = $CabezaExtra
@@ -312,7 +324,15 @@ function BloqueArchivo($Proyectos, $Extra) {
     $items -join "`n"
 }
 
-function BloqueServicios($Servicios) {
+function EnlacesServicio($Servicio, $Raiz) {
+    if (-not $Servicio.paginas) { return '' }
+    $enlaces = foreach ($pag in $Servicio.paginas) {
+        "`n          " + ('<a class="srv-mas" href="{0}{1}">{2} &rarr;</a>' -f $Raiz, $pag.url, $pag.texto)
+    }
+    $enlaces -join ''
+}
+
+function BloqueServicios($Servicios, $Raiz = '') {
     $indice = 0
     $filas = foreach ($s in $Servicios) {
         $indice++
@@ -322,6 +342,7 @@ function BloqueServicios($Servicios) {
             titulo = $s.titulo
             texto  = $s.texto
             items  = (Envolver $s.items '<li>{0}</li>')
+            paginas = (EnlacesServicio $s $Raiz)
         }
     }
     $filas -join "`n"
@@ -457,7 +478,8 @@ function GenerarHome($Datos, $Destacados) {
         -Titulo $sitio.titulo -Descripcion $sitio.descripcion `
         -OgTipo 'website' -OgTitulo $sitio.og_titulo -OgDescripcion $sitio.og_descripcion `
         -OgImagen (UrlAbsoluta $sitio.dominio ('assets/img/{0}.webp' -f $sitio.og_imagen)) `
-        -Transicion $sitio.autor -Main $main -CabezaExtra $jsonLd
+        -Transicion $sitio.autor -Main $main -CabezaExtra $jsonLd `
+        -Url $(if ($sitio.dominio) { '{0}/' -f $sitio.dominio } else { '' })
 }
 
 
@@ -532,7 +554,9 @@ function GenerarCaso($Datos, [int]$Indice) {
         next_nombre   = $siguiente.nombre
     }
 
-    $titulo = $sitio.textos.titulo_caso -f $p.nombre, $sitio.autor
+    # titulo_seo lo fija contenido.json por proyecto; si falta, se cae al generico.
+    if ($p.titulo_seo) { $titulo = $p.titulo_seo }
+    else { $titulo = $sitio.textos.titulo_caso -f $p.nombre, $sitio.autor }
     # Sin portada propia (ZenDreams es solo un PDF) tira de la imagen del sitio.
     if ($p.cover.img) { $og = $p.cover.img } else { $og = $sitio.og_imagen }
     if ($sitio.dominio) {
@@ -544,7 +568,8 @@ function GenerarCaso($Datos, [int]$Indice) {
     Pagina -Sitio $sitio -EnCaso $true `
         -Titulo $titulo -Descripcion $p.descripcion_seo `
         -OgTipo 'article' -OgTitulo $titulo -OgDescripcion $p.descripcion_seo `
-        -OgImagen $ogImagen -Transicion $p.nombre -Main $main
+        -OgImagen $ogImagen -Transicion $p.nombre -Main $main `
+        -Url $(if ($sitio.dominio) { '{0}/proyectos/{1}' -f $sitio.dominio, $p.slug } else { '' })
 }
 
 
@@ -554,9 +579,14 @@ function GenerarSitemap($Datos) {
     $dominio = $Datos.sitio.dominio
     if (-not $dominio) { $dominio = $DOMINIO_POR_DEFECTO }
 
-    $urls = @('  <url><loc>{0}/</loc><priority>1.0</priority></url>' -f $dominio)
+    # URLs sin .html: Cloudflare redirige de una a otra y esta es la final.
+    $hoy = (Get-Date).ToString('yyyy-MM-dd')
+    $urls = @('  <url><loc>{0}/</loc><lastmod>{1}</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>' -f $dominio, $hoy)
+    foreach ($extra in $Datos.sitio.paginas_extra) {
+        $urls += '  <url><loc>{0}/{1}</loc><lastmod>{2}</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>' -f $dominio, $extra, $hoy
+    }
     foreach ($p in $Datos.proyectos) {
-        $urls += '  <url><loc>{0}/proyectos/{1}.html</loc><priority>0.8</priority></url>' -f $dominio, $p.slug
+        $urls += '  <url><loc>{0}/proyectos/{1}</loc><lastmod>{2}</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>' -f $dominio, $p.slug, $hoy
     }
     if ($Datos.sitio.dominio) { $aviso = '' }
     else { $aviso = "`n<!-- Pon tu dominio en `"dominio`" (contenido.json) y vuelve a generar. -->" }

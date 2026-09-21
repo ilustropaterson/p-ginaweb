@@ -3,17 +3,17 @@
     "autor": "Fernando Paterson",
     "marca": "Paterson",
     "email": "ilustropaterson@gmail.com",
-    "dominio": "",
+    "dominio": "https://paterson.es",
     "idioma": "es",
     "locale": "es_ES",
     "theme_color": "#0B0B0C",
-    "titulo": "Fernando Paterson — Diseñador Gráfico &amp; Ilustrador | E-commerce, Amazon y Packaging",
-    "descripcion": "Diseñador gráfico e ilustrador digital especializado en e-commerce: listados de Amazon, contenido A+, packaging, infografía e ilustración para marcas que venden online. Disponible para proyectos.",
-    "og_titulo": "Fernando Paterson — Diseñador Gráfico &amp; Ilustrador",
+    "titulo": "Diseñador gráfico para Amazon y e-commerce | Fernando Paterson",
+    "descripcion": "Diseño de listados y contenido A+ para Amazon, packaging e ilustración para marcas que venden online. Portfolio y casos reales. Hablemos de tu producto.",
+    "og_titulo": "Diseñador gráfico para Amazon y e-commerce — Fernando Paterson",
     "og_descripcion": "Diseño para e-commerce que convierte: Amazon, contenido A+, packaging e ilustración. Portfolio y contacto.",
     "og_imagen": "injusa-cover",
     "linkedin": {
-      "url": "https://www.linkedin.com/search/results/all/?keywords=Fernando%20Paterson%20Gonz%C3%A1lez",
+      "url": "https://www.linkedin.com/in/fernando-paterson-gonz%C3%A1lez-21a8501b6/",
       "texto": "LinkedIn — Fernando Paterson González"
     },
     "base": "España — disponible en remoto",
@@ -48,6 +48,12 @@
         "texto": "Contacto",
         "ancla": "#contacto"
       }
+    ],
+    "paginas_extra": [
+      "servicios/listados-amazon",
+      "servicios/contenido-a-plus",
+      "servicios/packaging",
+      "servicios/diseno-ecommerce"
     ]
   },
   "home": {
@@ -140,6 +146,16 @@
             "Tiendas de marca",
             "Banners y campañas",
             "Adaptación ES · EN · DE · FR · IT"
+          ],
+          "paginas": [
+            {
+              "url": "servicios/listados-amazon",
+              "texto": "Ver servicio: listados de Amazon"
+            },
+            {
+              "url": "servicios/contenido-a-plus",
+              "texto": "Ver servicio: contenido A+"
+            }
           ]
         },
         {
@@ -151,6 +167,12 @@
             "Banners promocionales",
             "Retoque &amp; fotomontaje",
             "Assets para web"
+          ],
+          "paginas": [
+            {
+              "url": "servicios/diseno-ecommerce",
+              "texto": "Ver servicio: diseño e-commerce"
+            }
           ]
         },
         {
@@ -162,6 +184,12 @@
             "Packaging",
             "Cartas &amp; folletos postventa",
             "Artes finales"
+          ],
+          "paginas": [
+            {
+              "url": "servicios/packaging",
+              "texto": "Ver servicio: packaging y print"
+            }
           ]
         },
         {
@@ -381,7 +409,7 @@
         "Infografía",
         "Multiidioma"
       ],
-      "descripcion_seo": "Case study: diseño de listados, contenido A+ y tienda de Amazon para INJUSA, marca española de juguetes con 75 años de historia.",
+      "descripcion_seo": "Diseño de listados de Amazon, contenido A+ y tienda de marca para INJUSA, fabricante español de vehículos infantiles. Caso real con imágenes del proyecto.",
       "contexto": "INJUSA es una marca española de vehículos infantiles con 75 años de historia. A través del estudio Growth Sprint me encargué del contenido visual de su catálogo en Amazon: un producto pensado para niños, pero comprado por padres que necesitan confiar en lo que ven.",
       "trabajo": "Diseñé imágenes principales, infografías y contenido A+ para varios productos de la marca, además de piezas para su tienda de Amazon. El reto: comunicar <strong>diversión, seguridad y dinamismo</strong> a la vez, adaptando cada pieza a un público familiar y a varios mercados europeos con sus idiomas.",
       "resultado": "Un catálogo entero hablando el mismo idioma visual: <em>diversión para ellos, confianza para sus padres.</em>",
@@ -506,7 +534,8 @@
           "aplus"
         ],
         "meta": "Amazon · A+"
-      }
+      },
+      "titulo_seo": "Listados y contenido A+ para INJUSA | Fernando Paterson"
     },
     {
       "slug": "auvra",
@@ -522,7 +551,7 @@
         "Contenido A+",
         "Renders"
       ],
-      "descripcion_seo": "Case study: dirección visual, imágenes de producto y contenido A+ para la gama de adaptadores CarPlay inalámbricos de Auvra.",
+      "descripcion_seo": "Dirección visual, imágenes de producto y contenido A+ para la gama de adaptadores CarPlay de Auvra. Estética premium para un mercado saturado.",
       "contexto": "Auvra lanza una gama de adaptadores de CarPlay inalámbrico (SE Air, SE Max, Swiftlink) en un mercado saturado de productos idénticos. El briefing pedía una estética premium y consistente que diferenciara la gama a primera vista.",
       "trabajo": "Definí el estilo visual de los listados y diseñé las imágenes principales, composiciones de producto y contenido A+ de la gama completa. Fondos oscuros, luz controlada y detalle de materiales para que un accesorio de 30 € se perciba como un producto de 100 €.",
       "resultado": "Una gama entera reconocible de un vistazo: <em>misma luz, misma familia, misma marca.</em>",
@@ -716,7 +745,8 @@
           "aplus"
         ],
         "meta": "Producto · A+"
-      }
+      },
+      "titulo_seo": "Imágenes de producto Amazon para Auvra | Fernando Paterson"
     },
     {
       "slug": "puremind",
@@ -732,7 +762,7 @@
         "Imagen principal",
         "Optimización a conversión"
       ],
-      "descripcion_seo": "Case study: listados de Amazon España para Puremind — gafas bloqueadoras de luz azul, filtros clip-on y productos de bienestar.",
+      "descripcion_seo": "Listados de Amazon e infografías para Puremind: gafas de luz azul y productos de bienestar. Beneficios complejos explicados en una sola imagen.",
       "contexto": "Puremind vende productos de bienestar y salud visual en Amazon España: gafas bloqueadoras de luz azul, filtros clip-on y su gorro de alivio para migrañas. Productos con beneficios reales pero difíciles de explicar en una miniatura.",
       "trabajo": "Diseñé los listados completos: imágenes principales e infografías que traducen tecnología (lentes multicapa, bloqueo de luz azul, frío/calor) en beneficios que se entienden en tres segundos. Un sistema visual coherente para toda la marca, optimizado para conversión.",
       "resultado": "Beneficios complejos contados en una imagen: <em>así se decide una compra.</em>",
@@ -809,7 +839,8 @@
           "aplus"
         ],
         "meta": "Amazon · A+"
-      }
+      },
+      "titulo_seo": "Listados de Amazon para Puremind | Fernando Paterson"
     },
     {
       "slug": "tottal",
@@ -826,7 +857,7 @@
         "Contenido A+",
         "Packaging"
       ],
-      "descripcion_seo": "Case study: logo, renders 3D y listado completo de Amazon para Tottal, gafas de cartón certificado FSC para la observación segura de eclipses.",
+      "descripcion_seo": "Proyecto integral para Tottal: logotipo, renders 3D y listado completo de Amazon con contenido A+ para unas gafas de observación de eclipses.",
       "contexto": "Tottal lanza unas gafas de observación solar de montura de cartón certificado FSC, pensadas para disfrutar de un eclipse sin riesgos. Un producto de temporada que necesitaba nacer con marca propia y un listado impecable desde el día uno.",
       "trabajo": "Proyecto integral: diseñé el logotipo de la marca, modelé los renders 3D del producto, y construí el listado completo con imágenes principales, infografías y contenido A+ en varios idiomas. El discurso visual gira en torno a la seguridad certificada (normativa ISO) y la emoción de mirar un eclipse de frente.",
       "resultado": "Una marca creada de cero para un momento que dura minutos: <em>y un producto listo para aprovecharlo.</em>",
@@ -1008,7 +1039,8 @@
           "packaging"
         ],
         "meta": "Logo · Amazon"
-      }
+      },
+      "titulo_seo": "Logo, 3D y listado Amazon para Tottal | Fernando Paterson"
     },
     {
       "slug": "gubosa",
@@ -1024,7 +1056,7 @@
         "Listados Amazon",
         "Contenido A+"
       ],
-      "descripcion_seo": "Case study: sistema de etiquetas y listados de Amazon para Gubosa, marca española de pulimentos y detailing profesional.",
+      "descripcion_seo": "Sistema de etiquetas y listados de Amazon para Gubosa, marca española de pulimentos y detailing profesional. Packaging y contenido A+.",
       "contexto": "Gubosa fabrica en España pulimentos y productos de detailing de laboratorio propio. Necesitaba que su gama —High Cut, Alto Brillo, Metal Polish, Rust Cleaner y más— se viera tan profesional en el bote como lo es su fórmula.",
       "trabajo": "Diseñé el sistema de etiquetas de la gama, con un código de color por producto sobre base negra, y el contenido visual de sus listados en Amazon: infografías de aplicación paso a paso, comparativas y contenido centrado en la eficacia y el acabado profesional.",
       "resultado": "Una gama que se reconoce en la estantería y se explica sola en Amazon: <em>del laboratorio al lineal sin perder seriedad.</em>",
@@ -1185,7 +1217,8 @@
           "packaging"
         ],
         "meta": "Etiquetas · Amazon"
-      }
+      },
+      "titulo_seo": "Etiquetas y listados Amazon — Gubosa | Fernando Paterson"
     },
     {
       "slug": "mommy-confort",
@@ -1201,7 +1234,7 @@
         "Contenido A+",
         "Multiidioma"
       ],
-      "descripcion_seo": "Case study: imágenes e infografías de Amazon para Mommy Confort y Valentia Medical — almohadas viscoelásticas y cojines ergonómicos.",
+      "descripcion_seo": "Listados de Amazon, infografías de ergonomía y contenido A+ multiidioma para Mommy Confort y Valentia Medical, productos de descanso y salud.",
       "contexto": "Mommy Confort y Valentia Medical venden almohadas viscoelásticas y cojines ergonómicos: productos de salud y descanso donde la confianza lo es todo y las diferencias no se ven a simple vista.",
       "trabajo": "Desarrollé el material visual de sus listados: imágenes principales, infografías de ergonomía y postura, y módulos que comunican certificaciones, materiales y fabricación española. Piezas adaptadas a varios idiomas, incluido el mercado alemán.",
       "resultado": "Ergonomía y confianza explicadas con claridad: <em>lo que no se puede tocar, se tiene que entender.</em>",
@@ -1305,7 +1338,8 @@
           "aplus"
         ],
         "meta": "Amazon · A+"
-      }
+      },
+      "titulo_seo": "Contenido A+ para Mommy Confort | Fernando Paterson"
     },
     {
       "slug": "rupeca",
@@ -1321,7 +1355,7 @@
         "Infografía",
         "Multiidioma"
       ],
-      "descripcion_seo": "Case study: packaging y listados de Amazon para Rupeca — trampas para cucarachas y cinta espantapájaros, adaptados a 4 idiomas.",
+      "descripcion_seo": "Packaging físico y listados de Amazon en cuatro idiomas para Rupeca, marca española de productos para el hogar y el jardín.",
       "contexto": "Rupeca, marca española de productos para el hogar, necesitaba lanzar su trampa inteligente para cucarachas y su cinta reflectante espantapájaros: categorías donde casi todo el catálogo de la competencia se ve igual… y poco cuidado.",
       "trabajo": "Diseñé el packaging físico de la trampa y los listados completos de ambos productos: imágenes principales, infografías de uso paso a paso y comparativas frente a otras marcas. Todo adaptado a español, alemán, francés e italiano.",
       "resultado": "Productos cotidianos con un estándar visual poco habitual en su categoría: <em>eso también es diferenciarse.</em>",
@@ -1429,7 +1463,8 @@
           "packaging"
         ],
         "meta": "Packaging · Amazon"
-      }
+      },
+      "titulo_seo": "Packaging y listados Amazon — Rupeca | Fernando Paterson"
     },
     {
       "slug": "valbaby",
@@ -1446,7 +1481,7 @@
         "Cartas postventa",
         "Multiidioma"
       ],
-      "descripcion_seo": "Case study: diseño e-commerce integral para Valbaby — Shopify, tienda de Amazon, listados y cartas de agradecimiento en 5 idiomas.",
+      "descripcion_seo": "Diseño e-commerce integral para Valbaby: Shopify, tienda de Amazon, listados de producto y cartas postventa traducidas a cinco idiomas.",
       "contexto": "Valbaby es una marca de puericultura para la que trabajo como diseñador e-commerce desde 2024. Un catálogo que crece cada temporada —alfombras de juego, bañeras plegables, textil— y que necesita coherencia visual en cada canal donde vende.",
       "trabajo": "Diseño integral y continuo: imágenes y banners para su tienda Shopify, tienda de Amazon multiidioma, listados de producto y las cartas de agradecimiento postventa, de las que me encargué del diseño, la redacción y la traducción a 5 idiomas (ES, EN, DE, FR, IT) para reforzar el vínculo con cada cliente tras la compra.",
       "resultado": "Una marca que se ve igual de cuidada en su web, en Amazon <em>y en la caja que llega a casa.</em>",
@@ -1597,7 +1632,8 @@
           "packaging"
         ],
         "meta": "Shopify · Amazon"
-      }
+      },
+      "titulo_seo": "Diseño e-commerce para Valbaby | Fernando Paterson"
     },
     {
       "slug": "ambiti",
@@ -1613,7 +1649,7 @@
         "Infografía",
         "Multiidioma"
       ],
-      "descripcion_seo": "Case study: listados de Amazon y contenido A+ para Ambiti — monodosis WC Hydro para autocaravanas, en francés.",
+      "descripcion_seo": "Listados de Amazon, contenido A+ e infografías para Ambiti, marca de productos para camping y caravaning. Fotografía de producto retocada.",
       "contexto": "Ambiti fabrica monodosis hidrosolubles para el WC químico de autocaravanas y caravanas. Un producto que se compra por confianza: el comprador necesita entender <strong>qué hace, cómo se usa y con qué depósitos es compatible</strong> antes de meterlo en su vehículo.",
       "trabajo": "Diseñé los listados completos de las dos gamas —WC Hydro y WC Hydro Pino— para el mercado francés: imagen principal, infografías de modo de empleo, compatibilidad y formato, más los módulos de contenido A+. Dos líneas con <em>códigos de color propios</em>, naranja y rosa, que se distinguen en el lineal sin dejar de ser la misma marca.",
       "resultado": "Un catálogo que explica un producto técnico <em>sin una sola línea de letra pequeña</em>: cada duda del comprador tiene su imagen.",
@@ -1707,7 +1743,8 @@
           "aplus"
         ],
         "meta": "Foto · Amazon"
-      }
+      },
+      "titulo_seo": "Listados de Amazon para Ambiti | Fernando Paterson"
     },
     {
       "slug": "mooiza",
@@ -1722,7 +1759,7 @@
         "Contenido A+",
         "Infografía"
       ],
-      "descripcion_seo": "Case study: listados y contenido A+ para Mooiza Zen — suplemento calmante natural para perros.",
+      "descripcion_seo": "Listados de Amazon, contenido A+ e infografías para Mooiza, marca de productos de bienestar animal. Contenido visual orientado a conversión.",
       "contexto": "Mooiza Zen es un suplemento calmante para perros a base de rosa canina, hierba de San Juan, raíz de valeriana y L-triptófano. La categoría está llena de botes que se parecen entre sí y hablan de ingredientes, <strong>no del perro</strong>.",
       "trabajo": "Diseñé el listado completo dándole la vuelta al enfoque: la primera imagen es el perro tranquilo, no el envase. A partir de ahí, las infografías van resolviendo lo práctico —tabla de dosificación por peso, ingredientes, situaciones de uso— y cierran con una comparativa frente a otros suplementos.",
       "resultado": "Un verde suave y mucho aire donde la competencia grita: <em>la calma del producto se ve antes de leer nada.</em>",
@@ -1786,7 +1823,8 @@
           "aplus"
         ],
         "meta": "Amazon · A+"
-      }
+      },
+      "titulo_seo": "Listados de Amazon para Mooiza | Fernando Paterson"
     },
     {
       "slug": "ubaby",
@@ -1801,7 +1839,7 @@
         "Contenido A+",
         "Infografía"
       ],
-      "descripcion_seo": "Case study: listados y contenido A+ para Ubaby — piscina de bolas plegable para bebés.",
+      "descripcion_seo": "Listados de Amazon, contenido A+ e infografías ilustradas para Ubaby, marca de puericultura. Diseño claro para un público familiar.",
       "contexto": "Ubaby vende una piscina de bolas plegable para bebés. El comprador es un padre o una madre con dos preguntas en la cabeza: <strong>¿es seguro?</strong> y <strong>¿dónde lo guardo después?</strong>",
       "trabajo": "Diseñé el listado y el contenido A+ para responder a esas dos preguntas antes que a ninguna otra: certificaciones y materiales al principio, plegado y almacenaje justo detrás, y solo entonces el juego. Las medidas —120 cm de diámetro, bolas de 7 cm— van marcadas sobre la propia foto para que <em>no haya que imaginárselas</em>.",
       "resultado": "Una paleta de crudos y arena que hace que un juguete infantil encaje en el salón: <em>vender también es no chirriar.</em>",
@@ -1904,7 +1942,8 @@
           "aplus"
         ],
         "meta": "Amazon · A+"
-      }
+      },
+      "titulo_seo": "Listados de Amazon para Ubaby | Fernando Paterson"
     },
     {
       "slug": "mibebestore",
@@ -1919,7 +1958,7 @@
         "Contenido A+",
         "Infografía"
       ],
-      "descripcion_seo": "Case study: listados Amazon y contenido A+ para mibebéstore — juego de sábanas de cuna.",
+      "descripcion_seo": "Listados de Amazon, contenido A+ e infografías para mibebéstore, marca de textil y puericultura. Imágenes de producto y piezas de listado.",
       "contexto": "mibebéstore es una marca alicantina de textil de cuna. Vende un juego de sábanas —bajera ajustable, encimera, funda de almohada y chupetero—, y ahí el problema no es el precio: es que <strong>en una miniatura todas las sábanas blancas son la misma sábana blanca</strong>.",
       "trabajo": "Saqué a la primera imagen lo único que no se puede tocar desde el móvil: el tacto. Tejido suave, transpirable, equilibrio térmico y 100 % algodón, cada atributo con su icono. Las medidas van marcadas sobre la cuna real, y el pack se despieza en una sola imagen para que <em>nadie tenga que leer la descripción</em> para saber qué le llega a casa.",
       "resultado": "Beige, crema y madera: la paleta de la habitación donde va a acabar el producto. <em>El listado se parece a la cuna del comprador, no al catálogo del fabricante.</em>",
@@ -2013,7 +2052,8 @@
           "aplus"
         ],
         "meta": "Amazon · A+"
-      }
+      },
+      "titulo_seo": "Listados Amazon para mibebéstore | Fernando Paterson"
     },
     {
       "slug": "neobit",
@@ -2028,7 +2068,7 @@
         "Contenido A+",
         "Infografía"
       ],
-      "descripcion_seo": "Case study: listados Amazon y contenido A+ para Donnabit Meno, el complemento para la menopausia de Neobit Pharma.",
+      "descripcion_seo": "Listados de Amazon, contenido A+ e infografías para Neobit Pharma, marca de complementos alimenticios y productos de farmacia.",
       "contexto": "Donnabit Meno es un complemento para la menopausia de Neobit Pharma, presente en más de 200 farmacias. Saltar del mostrador a Amazon cambia la conversación: <strong>en la farmacia hay alguien que explica; en la ficha no hay nadie</strong>.",
       "trabajo": "Ordené el listado por síntoma y no por ingrediente. Primero lo que la compradora ya está notando —sofocos, descanso irregular, cambios de ánimo— y solo después la fórmula, ya como respuesta. El aval de farmacia y la pauta (<em>una cápsula al día, treinta días</em>) van en imagen propia, porque son las dos cosas que cierran la compra.",
       "resultado": "Serif negro sobre rosa, mujeres de la edad real de quien compra y ni un eufemismo. <em>Hablarle de frente a quien te está buscando.</em>",
@@ -2122,7 +2162,8 @@
           "aplus"
         ],
         "meta": "Amazon · A+"
-      }
+      },
+      "titulo_seo": "Listados Amazon para Neobit Pharma | Fernando Paterson"
     },
     {
       "slug": "saludbox",
@@ -2137,7 +2178,7 @@
         "Contenido A+",
         "Infografía"
       ],
-      "descripcion_seo": "Case study: listados Amazon y contenido A+ para Morpheo, las gominolas de melatonina de Saludbox.",
+      "descripcion_seo": "Listados de Amazon, contenido A+ e infografías para Saludbox, marca de complementos alimenticios. Producto y beneficios con lectura inmediata.",
       "contexto": "Morpheo es melatonina en formato gominola. La categoría del descanso está llena de botes que se parecen entre sí, y la decisión se toma en la miniatura: <strong>si en dos segundos no se entiende qué es y para qué sirve</strong>, el comprador pasa al siguiente.",
       "trabajo": "Monté el listado alrededor de la rutina y no del producto: cuándo se toma, cómo se toma y qué se nota al día siguiente. Los activos —melatonina, valeriana, melisa, manzanilla, lavanda y ashwagandha— van uno a uno, con su porqué al lado. Y los <em>sin</em> —sin azúcar, vegano, sin gluten, sin lactosa, sin gelatina animal, sin conservantes— ocupan una imagen entera, porque en esta categoría son media compra.",
       "resultado": "Un morado nocturno sostenido en las once piezas, del listado al A+. <em>Una marca de descanso tiene que dar sueño al mirarla.</em>",
@@ -2231,7 +2272,8 @@
           "aplus"
         ],
         "meta": "Amazon · A+"
-      }
+      },
+      "titulo_seo": "Listados de Amazon para Saludbox | Fernando Paterson"
     },
     {
       "slug": "zendreams",
@@ -2246,7 +2288,7 @@
         "Ilustración",
         "Piezas postventa"
       ],
-      "descripcion_seo": "Case study: piezas postventa e ilustración de personaje para ZenDreams — almohadas viscoelásticas infantiles.",
+      "descripcion_seo": "Ilustración, piezas impresas y material postventa para ZenDreams, marca de descanso infantil. Diseño con personalidad propia.",
       "contexto": "ZenDreams vende almohadas viscoelásticas para niños. Querían que la pieza que va dentro de la caja —la que se lee en casa, con el producto ya comprado— hiciera algo más que enumerar instrucciones de lavado.",
       "trabajo": "Diseñé el folleto a doble cara: una cara con el cuidado del producto resuelto en cuatro pictogramas, y la otra con <strong>Nilo</strong>, la oveja mascota de la marca, ilustrada y presentada en primera persona. Mismo cielo, mismas nubes y mismo azul en las dos caras.",
       "resultado": "La instrucción de lavado y el personaje comparten página: <em>lo aburrido entra porque va acompañado.</em>",
@@ -2276,7 +2318,8 @@
           "packaging"
         ],
         "meta": "Print · Ilustración"
-      }
+      },
+      "titulo_seo": "Ilustración y print para ZenDreams | Fernando Paterson"
     }
   ],
   "archivo_extra": []

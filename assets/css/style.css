@@ -26,6 +26,7 @@
    21. Pie
    22. Case study
    23. Reduced motion
+   24. Páginas de servicio
    ========================================================================== */
 
 /* ----------------------------------------------------------------- 01. Fuentes
@@ -147,6 +148,19 @@ button {
 ::selection {
   background: var(--ink);
   color: var(--bg);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
 }
 
 :focus-visible {
@@ -1723,6 +1737,124 @@ html:not(.js) .rotator .word:first-child {
     border-left: 0;
     border-top: 1px solid var(--line);
   }
+}
+
+/* ------------------------------------------------ 24. Páginas de servicio */
+
+.srv-intro {
+  max-width: 62ch;
+  margin-bottom: clamp(24px, 4vh, 40px);
+  color: var(--muted);
+  font-size: clamp(17px, 1.5vw, 22px);
+  line-height: 1.5;
+}
+.srv-hero-ctas {
+  margin-bottom: clamp(30px, 6vh, 64px);
+}
+
+.srv-lista {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px 24px;
+  list-style: none;
+}
+.srv-lista li {
+  position: relative;
+  padding: 10px 0 10px 24px;
+  border-top: 1px solid var(--line-soft);
+  color: var(--muted);
+  font-size: 15px;
+}
+.srv-lista li::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: var(--ink);
+}
+@media (max-width: 700px) {
+  .srv-lista { grid-template-columns: 1fr; }
+}
+
+.srv-casos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--gutter);
+}
+@media (max-width: 820px) {
+  .srv-casos { grid-template-columns: 1fr; }
+}
+.srv-caso {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: clamp(22px, 3vw, 32px);
+  border: 1px solid var(--line);
+  transition: background .4s var(--ease), border-color .4s var(--ease);
+}
+.srv-caso:hover {
+  background: var(--bg-2);
+  border-color: var(--ink);
+}
+.srv-caso h3 {
+  font-size: clamp(22px, 2.4vw, 32px);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -.02em;
+}
+.srv-caso p {
+  color: var(--muted);
+  font-size: 14px;
+}
+.srv-caso-mas {
+  margin-top: auto;
+  padding-top: 18px;
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  transition: transform .4s var(--ease);
+}
+.srv-caso:hover .srv-caso-mas {
+  transform: translateX(6px);
+}
+
+.faq {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.faq-item {
+  padding: clamp(18px, 2.4vh, 26px) 0;
+  border-top: 1px solid var(--line-soft);
+}
+.faq-item h3 {
+  margin-bottom: 8px;
+  font-size: clamp(16px, 1.5vw, 20px);
+  font-weight: 700;
+}
+.faq-item p {
+  max-width: 68ch;
+  margin: 0;
+  color: var(--muted);
+}
+
+/* Enlace a la página completa dentro del acordeón de la home */
+.srv-mas {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 18px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid var(--line);
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  transition: border-color .35s, gap .35s var(--ease);
+}
+.srv-mas:hover {
+  border-color: var(--ink);
+  gap: 14px;
 }
 
 /* -------------------------------------------------------- 23. Reduced motion
